@@ -14,6 +14,9 @@ export default function Home() {
         <div className="mx-4 my-4">
           <Image src="/images/dashspider.jpg" alt="" className="rounded-lg border-8 border-solid border-green-700" width={600} height={378}/>
         </div>
+        <div className="mx-4 my-4">
+          <Image src="/images/en_passant.png" alt="" className="rounded-lg border-8 border-solid border-green-700" width={300} height={245}/>
+        </div>
         <div className="col-span-2">
           <p className="text-white text-left text-2xl font-semibold mx-4 my-4 indent-6">Every component in the model you see before you is removable. To get started, try placing a part on the [base].</p>
         </div>
