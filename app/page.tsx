@@ -12,10 +12,10 @@ export default function Home() {
           <p className="text-white text-left text-2xl font-semibold mx-4 my-4 indent-6">As you may know, all life is made up of cells. This project details the inner workings of a plant cell. We interviewed accomplished biologists at UC Davis about the amazing and complex world of plant cell biology.</p>
         </div>
         <div className="my-4 justify-self-center">
-          <Image src="/images/dashspider.jpg" alt="" className="rounded-lg border-8 border-solid border-green-700" width={600} height={378}/>
+          <Image src="/images/dashspider.jpg" alt="" className="rounded-lg border-8 border-solid border-green-700" fill={true}/>
         </div>
         <div className="my-4 justify-self-center">
-          <Image src="/images/en_passant.png" alt="" className="rounded-lg border-8 border-solid border-green-700" width={300} height={245}/>
+          <Image src="/images/en_passant.png" alt="" className="rounded-lg border-8 border-solid border-green-700" fill={true}/>
         </div>
         <div className="col-span-2">
           <p className="text-white text-left text-2xl font-semibold mx-4 my-4 indent-6">Every component in the model you see before you is removable. To get started, try placing a part on the [base].</p>
