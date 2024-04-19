@@ -4,11 +4,11 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main>
-      <div className="rounded-lg bg-gradient-to-r from-COLOR1-600 to-COLOR1-400 p-7 mx-4 mb-2 mt-4">
-        <h1 className="text-gray-200 text-center text-6xl font-black">Mitochondria</h1>
-        <h2 className="text-gray-200 text-center text-3xl font-bold">The Powerhouse of the Cell</h2>
+      <div className="rounded-lg bg-gradient-to-r from-green-600 to-green-400 p-7 mx-4 mb-2 mt-4">
+        <h1 className="text-gray-200 text-center text-6xl font-black">Chloroplasts</h1>
+        <h2 className="text-gray-200 text-center text-3xl font-bold">SUBCAPTION</h2>
       </div>
-      <div className="grid grid-cols-3 grid-rows-2 gap-0 bg-gradient-to-b from-COLOR2-300 to-COLOR2-400 rounded-lg mt-0 w-screen-4 h-screen mx-4">
+      <div className="grid grid-cols-3 grid-rows-2 gap-0 bg-gradient-to-b from-emerald-300 to-emerald-400 rounded-lg mt-0 w-screen-4 h-screen mx-4">
         <div className="col-span-2">
           <p className="text-white text-left text-2xl font-semibold mx-4 my-4 indent-6">TEXT</p>
         </div>
