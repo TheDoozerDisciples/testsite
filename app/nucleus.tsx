@@ -1,6 +1,6 @@
 import Image from "next/image";
 // nucleus info
-export default function NucleusInfo(){
+export default function Home(){
   return (
     <main>
       <div className="rounded-lg bg-gradient-to-r from-blue-600 to-blue-400 p-7 mx-4 mb-2 mt-4">
