@@ -1,9 +1,10 @@
 import Image from "next/image";
+import { futura } from "./fonts.ts"
 
 // default page, intro
 export default function Home() {
 	return (
-		<main>
+		<main className={futura.className}>
 			<div className="rounded-lg bg-gradient-to-r from-green-600 to-green-400 p-7 mx-4 mb-2 mt-4">
 				<h1 className="text-gray-200 text-center text-6xl font-black">Q4 Bio Project</h1>
 				<h2 className="text-gray-200 text-center text-3xl font-bold">By Cyrus Brown, Peter Du, and Liam Sy</h2>

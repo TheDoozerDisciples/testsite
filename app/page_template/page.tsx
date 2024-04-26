@@ -4,12 +4,10 @@ import { futura } from "../fonts.ts"
 // default page, intro
 export default function Home() {
 	return (
-		<main>
+		<main className={futura.className}>
 			<div className="rounded-lg bg-gradient-to-r from-green-600 to-green-400 p-7 mx-4 mb-2 mt-4">
-				<div className={futura.className}>
-					<h1 className="text-gray-200 text-center text-6xl font-black">TITLE</h1>
-					<h2 className="text-gray-200 text-center text-3xl font-bold">SUBCAPTION</h2>
-				</div>
+				<h1 className="text-gray-200 text-center text-6xl font-black">TITLE</h1>
+				<h2 className="text-gray-200 text-center text-3xl font-bold">SUBCAPTION</h2>
 			</div>
 			<div className="grid grid-cols-1 grid-rows-2 gap-0 bg-gradient-to-b from-emerald-300 to-emerald-400 rounded-lg mt-0 w-screen-4 h-screen mx-4">
 				<div className="flex flex-row">
