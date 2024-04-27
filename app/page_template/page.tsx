@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { futura } from "../fonts.ts"
 
-// default page, intro
+// Page template, used for all pages
 // change up the colors every page obviously
 export default function Home() {
 	return (
