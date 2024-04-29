@@ -6,7 +6,7 @@ export default function Home() {
 	return (
 		<main className={`${futura.className} flex flex-col h-screen`}>
 			<div className="rounded-lg bg-gradient-to-r from-nice-blue-600 to-nice-blue-500 p-7 mx-4 mb-2 mt-4">
-				<h1 className="text-black text-center text-6xl font-black p-2 underline decoration-3 decoration-nice-purple-700 decoration-double">Q4 Bio Project</h1>
+				<h1 className="text-black text-center text-6xl font-black p-2 underline decoration-3 decoration-nice-purple-700 decoration-double">The Plant Cell</h1>
 				<h2 className="text-black text-center text-3xl font-bold mt-2">By Cyrus Brown, Peter Du, and Liam Sy</h2>
 			</div>
 			<div className="grid grid-cols-1 grid-rows-2 gap-0 bg-gradient-to-b from-nice-yellow-200 to-nice-yellow-300 rounded-lg mt-0 w-screen-4 flex-grow mx-4">
