@@ -1,11 +1,13 @@
 import Image from "next/image";
 import { futura } from "./fonts.ts"
+import Link from "next/link"
 
 // default page, intro
 export default function Home() {
 	return (
 		<main className={`${futura.className} flex flex-col h-screen`}>
 			<div className="rounded-lg bg-gradient-to-r from-nice-blue-600 to-nice-blue-500 p-7 mx-4 mb-2 mt-4">
+				<Link href="/navigation" className="absolute top-2 left-2 rounded-lg bg-black text-nice-purple-600 text-xl mx-4 my-4 object-top-left border-solid border-nice-yellow-300 border-2">Navigation</Link>
 				<h1 className="text-black text-center text-6xl font-black p-2 underline decoration-3 decoration-nice-purple-700 decoration-double">The Plant Cell</h1>
 				<h2 className="text-black text-center text-3xl font-bold mt-2">By Cyrus Brown, Peter Du, and Liam Sy</h2>
 			</div>
