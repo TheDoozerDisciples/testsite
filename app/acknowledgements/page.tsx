@@ -16,7 +16,7 @@ export default function Home() {
                         Thanks to Devansh Goel for helping create the base for our project, and Oliver Rich for
 						providing some of our 3D printing materials! 
                         We would also like to thank all of our parents for buying many of the materials 
-                        we used to make this project. Finally, we would like to thank Mr. Nathan Pumplin for 
+                        we used to make this project. Finally, we would like to thank Dr. Nathan Pumplin for 
 						participating in our interview. Without all of these people, this project would not have been possible.
 						</p>
 					</div>
