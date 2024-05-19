@@ -4,7 +4,7 @@ import { useState } from "react";
 
 export function dropdown(){
     return (
-        <div className=" ml-4 overflow-visible absolute top-16 left-2 bg-white rounded-lg shadow-lg p-4 text-nice-blue-500 underline decoration-2 decoration-nice-blue-500">
+        <div className=" ml-4 overflow-visible absolute top-16 left-2 bg-white rounded-lg shadow-lg p-4 text-nice-blue-500 text-xl leading-relaxed">
             <ul>
                 <li>
                     <Link href="/">Home</Link>
