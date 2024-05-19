@@ -28,12 +28,12 @@ export default function Home() {
                             synthesize <a className="font-extrabold text-nice-blue-600">lipids</a>, such as cholesterol and phospholipids.
                         </p>
                     </div>
-                    <div className=" mx-4 self-center flex-auto">
+                    <div className="mr-4 self-center shrink-0">
                         <Image src="/images/dashspider.jpg" alt="" className="rounded-lg border-8 border-solid border-nice-purple-500 object-contain max-h-96 max-w-96" width={500} height={500}/>
                     </div>
                 </div>
                 <div className="flex flex-row">
-                    <div className=" mx-4 self-center flex-auto">
+                    <div className="ml-4 self-center shrink-0">
                         <Image src="/images/en_passant.png" alt="" className="rounded-lg border-8 border-solid border-nice-purple-500 object-contain" width={300} height={300}/>
                     </div>
                     <div className="flex-grow flex-auto bg-nice-purple-400 rounded-lg mx-4 mt-2 mb-4">

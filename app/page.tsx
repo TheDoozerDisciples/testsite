@@ -19,12 +19,12 @@ export default function Home() {
 							We also created a 3D model of a plant cell to help visualize what we learned.
 						</p>
 					</div>
-					<div className="mx-4 self-center flex-auto">
+					<div className="mr-4 self-center shrink-0">
 						<Image src="/images/uc_davis_logo.png" alt="" className="rounded-lg border-8 border-solid border-nice-pink-300 object-contain max-h-96 max-w-96" width={400} height={400}/>
 					</div>
 				</div>
 				<div className="flex flex-row">
-					<div className="mx-4 self-center flex-auto">
+					<div className="ml-4 self-center shrink-0">
 						<Image src="/images/plant_cell.jpg" alt="" className="rounded-lg border-8 border-solid border-nice-pink-300 object-contain" width={400} height={400}/>
 					</div>
 					<div className="flex-grow flex-auto bg-nice-purple-400 rounded-lg mx-4 mt-2 mb-4">

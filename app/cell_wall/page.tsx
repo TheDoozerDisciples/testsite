@@ -3,7 +3,7 @@ import { futura } from "../fonts.ts"
 
 // Cell Wall: Armor of the Cell
 // Image #1 from https://www.sciencefacts.net/cell-wall.html
-// Image #2 from https://en.wikipedia.org/wiki/En_passant
+// Image #2 from https://microbenotes.com/plasmodesmata-structure-functions/
 export default function Home() {
 	return (
 		<main className={`${futura.className} flex flex-col h-screen`}>
@@ -30,13 +30,13 @@ export default function Home() {
                             much more rigid than the primary wall.
 						</p>
 					</div>
-					<div className=" mx-4 self-center flex-auto">
+					<div className="mr-4 self-center shrink-0">
 						<Image src="/images/cell_wall.jpg" alt="" className="rounded-lg border-8 border-solid border-nice-green-600 object-contain max-h-96 max-w-96" width={500} height={500}/>
 					</div>
 				</div>
 				<div className="flex flex-row">
-					<div className=" mx-4 self-center flex-auto">
-						<Image src="/images/en_passant.png" alt="" className="rounded-lg border-8 border-solid border-nice-green-600 object-contain" width={500} height={500}/>
+					<div className="ml-4 self-center shrink-0">
+						<Image src="/images/plasmodesma.jpg" alt="" className="rounded-lg border-8 border-solid border-nice-green-600 object-contain" width={500} height={500}/>
 					</div>
 					<div className="flex-grow flex-auto bg-nice-green-500 rounded-lg mx-4 mt-2 mb-4">
 						<p className="text-black text-left text-2xl font-semibold mx-4 my-4 indent-6 leading-loose">
