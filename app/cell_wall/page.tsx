@@ -2,22 +2,24 @@ import Image from "next/image";
 import { futura } from "../fonts.ts"
 
 // Cell Wall: Armor of the Cell
+// Image #1 from https://www.sciencefacts.net/cell-wall.html
+// Image #2 from https://en.wikipedia.org/wiki/En_passant
 export default function Home() {
 	return (
 		<main className={`${futura.className} flex flex-col h-screen`}>
-			<div className="rounded-lg bg-gradient-to-r from-nice-green-600 to-nice-green-500 p-7 mx-4 mb-2 mt-4">
+			<div className="rounded-lg bg-gradient-to-r from-nice-green-700 to-nice-green-600 p-7 mx-4 mb-2 mt-4">
 				<h1 className="text-black text-center text-6xl font-black p-2 underline decoration-3 decoration-nice-purple-600 decoration-double">The Cell Wall</h1>
 				<h2 className="text-black text-center text-3xl font-bold mt-2 italic">Armor of the Cell</h2>
 			</div>
 			<div className="grid grid-cols-1 grid-rows-2 gap-0 bg-gradient-to-b from-nice-yellow-300 to-nice-yellow-400 rounded-lg mt-0 w-screen-4 flex-grow mx-4">
 				<div className="flex flex-row">
 					<div className="flex-grow flex-auto bg-nice-green-500 rounded-lg mx-4 mt-4 mb-2">
-						<p className="text-black text-left text-xl font-semibold mx-4 my-4 indent-6 leading-loose">
+						<p className="text-black text-left text-xl font-semibold mx-4 mt-4 indent-6 leading-loose">
                             The <a className="font-extrabold text-nice-blue-700">cell wall</a> is a form of <a className="font-extrabold text-nice-pink-600">extracellular matrix</a> that serves as structural support for the cell. 
                             In addition, it also provides <a className="font-extrabold text-nice-purple-600">mechanical and chemical protection</a>, provides a medium for the circulation and 
                             distribution of water and other nutrients. 
 						</p>
-                        <p className="text-black text-left text-xl font-semibold mx-4 my-4 indent-6 leading-loose">
+                        <p className="text-black text-left text-xl font-semibold mx-4 my-t-2 mb-4 indent-6 leading-loose">
                             All cell walls contain at least <a className="font-extrabold text-nice-blue-700">two layers</a>: 
                             the <a className="font-extrabold text-nice-pink-600">middle lamella</a> and the <a className="font-extrabold text-nice-pink-600">primary cell wall</a>. 
                             Many cells produce a third layer, called the <a className="font-extrabold text-nice-pink-600">secondary wall</a>. 

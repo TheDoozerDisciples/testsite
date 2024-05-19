@@ -28,9 +28,15 @@ export default function Home() {
 						<Image src="/images/plant_cell.jpg" alt="" className="rounded-lg border-8 border-solid border-nice-pink-300 object-contain" width={400} height={400}/>
 					</div>
 					<div className="flex-grow flex-auto bg-nice-purple-400 rounded-lg mx-4 mt-2 mb-4">
-						<p className="text-black text-left text-2xl font-semibold mx-4 my-4 indent-6 leading-loose">
+						<p className="text-black text-left text-2xl font-semibold mx-4 mt-4 indent-6 leading-loose">
 							Every component in the model you see before you is <a className="font-extrabold text-nice-blue-600">removable</a>. 
 							To get started, try placing a part of the cell on the base.
+						</p>
+						<p className="text-black text-left text-xl font-semibold mx-4 mt-2 mb-4 indent-6 leading-loose">
+							DISCLAIMER: This model is <a className="font-extrabold text-red-600">NOT</a> to scale. Cell parts may be shaped differently in this model than in reality. 
+							For example, in this model the cell wall is below all the other cell parts and is filled in, but 
+							in reality the cell wall surrounds all the other cell parts and is is not filled in. A similar misrepresentation can 
+							be seen with the model of the cell membrane.
 						</p>
 					</div>
 				</div>
