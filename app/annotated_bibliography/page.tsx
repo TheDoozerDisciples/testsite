@@ -12,8 +12,8 @@ export default function Home() {
 			<div className="grid grid-cols-1 grid-rows-1 gap-0 bg-gradient-to-b from-nice-blue-200 to-nice-blue-300 rounded-lg mt-0 w-screen-4 flex-grow mx-4">
 				<div className="flex flex-row">
 					<div className="basis-6/12 bg-nice-blue-500 rounded-lg mx-4 mt-4 mb-2"> {/*Sources #1-#10*/}
-						<div className="text-black text-left text-xs mx-4 my-2 flex flex-col">
-							<div className="my-2">{/*Source #1*/}
+						<div className="text-black text-left text-8px mx-4 my-2 flex flex-col">
+							<div className="my-1">{/*Source #1*/}
 								<p>
 								“Chloroplast.” <a className="italic">Funk & Wagnalls New World Encyclopedia</a>, Jan. 2018, p. 1. <a className="italic">EBSCOhost</a>, research.ebsco.com/linkprocessor/plink?id=b7671787-17b8-3725-b420-2d495ab88b0c
 								</p>
@@ -22,7 +22,7 @@ export default function Home() {
 									- This is a reliable source because it's from EBSCOhost
 								</p>
 							</div>
-							<div className="my-2">{/*Source #2*/}
+							<div className="my-1">{/*Source #2*/}
 								<p>
 									Hamilton, Garry. “The Micromanagers.” <a className="italic">New Scientist</a>, vol. 223, no. 2987, Sept. 2014, pp. 42–45. <a className="italic">EBSCOhost</a>, https://research.ebsco.com/c/bpxw7x/viewer/html/qbhbigpdsf 
 								</p>
@@ -31,7 +31,7 @@ export default function Home() {
 									- This is a reliable source because it's from EBSCOhost
 								</p>
 							</div>
-							<div className="my-2">{/*Source #3*/}
+							<div className="my-1">{/*Source #3*/}
 								<p>
 								“Golgi Apparatus.” <a className="italic">Funk & Wagnalls New World Encyclopedia</a>, Jan. 2018, p. 1. <a className="italic">EBSCOhost</a>, https://research.ebsco.com/c/bpxw7x/viewer/html/l3tcf53fwj?route=details
 								</p>
@@ -40,7 +40,7 @@ export default function Home() {
 									- This is a reliable source because it's from EBSCOhost
 								</p>
 							</div>
-							<div className="my-2">{/*Source #4*/}
+							<div className="my-1">{/*Source #4*/}
 								<p>
 									“Ribosome.” <a className="italic">Funk & Wagnalls New World Encyclopedia</a>, Jan. 2018, p. 1. <a className="italic">EBSCOhost</a>, https://research.ebsco.com/c/bpxw7x/viewer/html/d5bj4syxcz?route=details
 								</p>
@@ -49,7 +49,7 @@ export default function Home() {
 									- This is a reliable source because it's from EBSCOhost
 								</p>
 							</div>
-							<div className="my-2">{/*Source #5*/}
+							<div className="my-1">{/*Source #5*/}
 								<p>
 									“Vacuole.” <a className="italic">Funk & Wagnalls New World Encyclopedia</a>, Jan. 2018, p. 1. <a className="italic">EBSCOhost</a>, https://research.ebsco.com/c/bpxw7x/viewer/html/b3nqosbacf?route=details
 								</p>
@@ -58,7 +58,7 @@ export default function Home() {
 									- This is a reliable source because it's from EBSCOhost
 								</p>
 							</div>
-							<div className="my-2">{/*Source #6*/}
+							<div className="my-1">{/*Source #6*/}
 								<p>
 									“Cell.” <a className="italic">Funk & Wagnalls New World Encyclopedia</a>, Jan. 2018, p. 1. <a className="italic">EBSCOhost</a>, https://research.ebsco.com/c/bpxw7x/viewer/html/gvt432lwor?route=details
 								</p>
@@ -67,7 +67,7 @@ export default function Home() {
 									- This is a reliable source because it's from EBSCOhost
 								</p>
 							</div>
-							<div className="my-2">{/*Source #7*/}
+							<div className="my-1">{/*Source #7*/}
 								<p>
 									Mukherjee, Santanu. “Cell Wall: Definition, Structure, & Functions with Diagram.” <a className="italic">Science Facts</a>, 16 July 2020, www.sciencefacts.net/cell-wall.html
 								</p>
@@ -76,7 +76,7 @@ export default function Home() {
 									- This is a reliable source because the author is an expert and the site’s information can be cross referenced with other reliable sources.
 								</p>
 							</div>
-							<div className="my-2">{/*Source #8*/}
+							<div className="my-1">{/*Source #8*/}
 								<p>
 									The Editors of Encyclopaedia Britannica. "nucleus". <a className="italic">Encyclopedia Britannica</a>, 16 Apr. 2024, https://www.britannica.com/science/nucleus-biology. Accessed 6 May 2024.
 								</p>
@@ -85,7 +85,7 @@ export default function Home() {
 									- This is a reliable source because it’s from Britannica, which is a well-known source that is fact-checked by experts.
 								</p>
 							</div>
-							<div className="my-2">{/*Source #9*/}
+							<div className="my-1">{/*Source #9*/}
 								<p>
 									Rogers, Kara. "mitochondrion". <a className="italic">Encyclopedia Britannica</a>, 10 May. 2024, https://www.britannica.com/science/mitochondrion. Accessed 6 May 2024.
 								</p>
@@ -94,7 +94,7 @@ export default function Home() {
 									- This is a reliable source because it’s from Britannica, which is a well-known source that is fact-checked by experts.
 								</p>
 							</div>
-							<div className="my-2">{/*Source #10*/}
+							<div className="my-1">{/*Source #10*/}
 								<p>
 									Rogers, Kara. "endoplasmic reticulum". <a className="italic">Encyclopedia Britannica</a>, 25 Apr. 2024, https://www.britannica.com/science/endoplasmic-reticulum. Accessed 13 May 2024.
 								</p>
@@ -106,8 +106,8 @@ export default function Home() {
 						</div>
 					</div>
 					<div className="basis-6/12 bg-nice-blue-500 rounded-lg mx-4 mt-4 mb-2"> {/*Sources #11-#20*/}
-						<div className="text-black text-left text-xs mx-4 my-2 flex flex-col">
-							<div className="my-2">{/*Source #11*/}
+						<div className="text-black text-left text-8px mx-4 my-2 flex flex-col">
+							<div className="my-1">{/*Source #11*/}
 								<p>
 									The Editors of Encyclopaedia Britannica. "plant cell". <a className="italic">Encyclopedia Britannica</a>, 3 May. 2024, https://www.britannica.com/science/plant-cell. Accessed 30 April 2024.
 								</p>
@@ -116,7 +116,7 @@ export default function Home() {
 									- This is a reliable source because it’s from Britannica, which is a well-known source that is fact-checked by experts.
 								</p>
 							</div>
-							<div className="my-2">{/*Source #12*/}
+							<div className="my-1">{/*Source #12*/}
 								<p>
 									Staehelin, L. Andrew. "cell wall". <a className="italic">Encyclopedia Britannica</a>, 2 May. 2024, https://www.britannica.com/science/cell-wall-plant-anatomy. Accessed 6 May 2024.
 								</p>
@@ -125,7 +125,7 @@ export default function Home() {
 									- This is a reliable source because it’s from Britannica, which is a well-known source that is fact-checked by experts.
 								</p>
 							</div>
-							<div className="my-2">{/*Source #13*/}
+							<div className="my-1">{/*Source #13*/}
 								<p>
 									The Editors of Encyclopaedia Britannica. "cytoplasm". <a className="italic">Encyclopedia Britannica</a>, 28 Feb. 2024, https://www.britannica.com/science/cytoplasm. Accessed 13 May 2024.
 								</p>
@@ -134,7 +134,7 @@ export default function Home() {
 									- This is a reliable source because it’s from Britannica, which is a well-known source that is fact-checked by experts.
 								</p>
 							</div>
-							<div className="my-2">{/*Source #14*/}
+							<div className="my-1">{/*Source #14*/}
 								<p>
 									The Editors of Encyclopaedia Britannica. "chloroplast". <a className="italic">Encyclopedia Britannica</a>, 16 Apr. 2024, https://www.britannica.com/science/chloroplast. Accessed 13 May 2024.
 								</p>
@@ -143,7 +143,7 @@ export default function Home() {
 									- This is a reliable source because it’s from Britannica, which is a well-known source that is fact-checked by experts.
 								</p>
 							</div>
-							<div className="my-2">{/*Source #15*/}
+							<div className="my-1">{/*Source #15*/}
 								<p>
 									Petruzzello, Melissa. "nucleolus". <a className="italic">Encyclopedia Britannica</a>, 18 Mar. 2024, https://www.britannica.com/science/nucleolus. Accessed 13 May 2024.
 								</p>
@@ -152,7 +152,7 @@ export default function Home() {
 									- This is a reliable source because it’s from Britannica, which is a well-known source that is fact-checked by experts.
 								</p>
 							</div>
-							<div className="my-2">{/*Source #16*/}
+							<div className="my-1">{/*Source #16*/}
 								<p>
 									Tan, Xiaona et al. “A Review of Plant Vacuoles: Formation, Located Proteins, and Functions.” <a className="italic">Plants (Basel, Switzerland)</a> vol. 8,9 327. 5 Sep. 2019, doi:10.3390/plants8090327
 								</p>
@@ -161,7 +161,7 @@ export default function Home() {
 									- This is a reliable source because it’s from the National Library of Medicine, which is a government source.
 								</p>
 							</div>
-							<div className="my-2">{/*Source #17*/}
+							<div className="my-1">{/*Source #17*/}
 								<p>
 									The Editors of Encyclopaedia Britannica. "cell membrane". <a className="italic">Encyclopedia Britannica</a>, 10 May. 2024, https://www.britannica.com/science/cell-membrane. Accessed 6 May 2024.
 								</p>
@@ -170,7 +170,7 @@ export default function Home() {
 									- This is a reliable source because it’s from Britannica, which is a well-known source that is fact-checked by experts.
 								</p>
 							</div>
-							<div className="my-2">{/*Source #18*/}
+							<div className="my-1">{/*Source #18*/}
 								<p>
 									Miller, Kenneth and Levine, Joseph. <a className="italic">Experience Biology: The Living Earth</a>. Savvas, 2020.
 								</p>
@@ -179,7 +179,7 @@ export default function Home() {
 									- This is a reliable source because it's our biology textbook we use in class.
 								</p>
 							</div>
-							<div className="my-2">{/*Source #19*/}
+							<div className="my-1">{/*Source #19*/}
 								<p>
 									Rogers, Kara. "Golgi apparatus". <a className="italic">Encyclopedia Britannica</a>, 8 May. 2024, https://www.britannica.com/science/Golgi-apparatus. Accessed 20 May 2024.
 								</p>
@@ -188,7 +188,7 @@ export default function Home() {
 									- This is a reliable source because it’s from Britannica, which is a well-known source that is fact-checked by experts.
 								</p>
 							</div>
-							<div className="my-2">{/*Source #20*/}
+							<div className="my-1">{/*Source #20*/}
 								<p>
 									[MLA Citation]
 								</p>
