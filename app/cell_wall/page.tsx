@@ -14,12 +14,12 @@ export default function Home() {
 			<div className="grid grid-cols-1 grid-rows-2 gap-0 bg-gradient-to-b from-nice-yellow-300 to-nice-yellow-400 rounded-lg mt-0 w-screen-4 flex-grow mx-4">
 				<div className="flex flex-row">
 					<div className="flex-grow flex-auto bg-nice-green-500 rounded-lg mx-4 mt-4 mb-2">
-						<p className="text-black text-left text-xl font-semibold mx-4 mt-4 indent-6 leading-loose">
+						<p className="text-black text-left text-2xl font-semibold mx-4 mt-4 indent-6 leading-loose">
                             The <a className="font-extrabold text-nice-blue-700">cell wall</a> is a form of <a className="font-extrabold text-nice-pink-600">extracellular matrix</a> that serves as structural support for the cell. 
                             In addition, it also provides <a className="font-extrabold text-nice-purple-600">mechanical and chemical protection</a>, provides a medium for the circulation and 
                             distribution of water and other nutrients. 
 						</p>
-                        <p className="text-black text-left text-xl font-semibold mx-4 my-t-2 mb-4 indent-6 leading-loose">
+                        <p className="text-black text-left text-2xl font-semibold mx-4 my-t-2 mb-4 indent-6 leading-loose">
                             All cell walls contain at least <a className="font-extrabold text-nice-blue-700">two layers</a>: 
                             the <a className="font-extrabold text-nice-pink-600">middle lamella</a> and the <a className="font-extrabold text-nice-pink-600">primary cell wall</a>. 
                             Many cells produce a third layer, called the <a className="font-extrabold text-nice-pink-600">secondary wall</a>. 
