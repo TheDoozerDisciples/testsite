@@ -12,13 +12,13 @@ export default function Home() {
 			<div className="grid grid-cols-1 grid-rows-1 gap-0 bg-gradient-to-b from-nice-blue-200 to-nice-blue-300 rounded-lg mt-0 w-screen-4 flex-grow mx-4">
 				<div className="flex flex-row">
 					<div className="basis-6/12 bg-nice-blue-500 rounded-lg mx-4 mt-4 mb-2"> {/*Sources #1-#10*/}
-						<div className="text-black text-left text-base mx-4 my-2 flex flex-col">
+						<div className="text-black text-left text-xs mx-4 my-2 flex flex-col">
 							<div className="my-2">{/*Source #1*/}
 								<p>
 								“Chloroplast.” <a className="italic">Funk & Wagnalls New World Encyclopedia</a>, Jan. 2018, p. 1. <a className="italic">EBSCOhost</a>, research.ebsco.com/linkprocessor/plink?id=b7671787-17b8-3725-b420-2d495ab88b0c
 								</p>
 								<p className="indent-6">
-									- We used this source because it tells us about chloroplast&shy;
+									- We used this source because it tells us about chloroplast</p><p className="indent-6">
 									- This is a reliable source because it's from EBSCOhost
 								</p>
 							</div>
@@ -27,7 +27,7 @@ export default function Home() {
 									Hamilton, Garry. “The Micromanagers.” <a className="italic">New Scientist</a>, vol. 223, no. 2987, Sept. 2014, pp. 42–45. <a className="italic">EBSCOhost</a>, https://research.ebsco.com/c/bpxw7x/viewer/html/qbhbigpdsf 
 								</p>
 								<p className="indent-6">
-									- We used this source because it tells us about mitochondria&shy;
+									- We used this source because it tells us about mitochondria</p><p className="indent-6">
 									- This is a reliable source because it's from EBSCOhost
 								</p>
 							</div>
@@ -36,7 +36,7 @@ export default function Home() {
 								“Golgi Apparatus.” <a className="italic">Funk & Wagnalls New World Encyclopedia</a>, Jan. 2018, p. 1. <a className="italic">EBSCOhost</a>, https://research.ebsco.com/c/bpxw7x/viewer/html/l3tcf53fwj?route=details
 								</p>
 								<p className="indent-6">
-									- We used this source because it tells us about the golgi apparatus&shy;
+									- We used this source because it tells us about the golgi apparatus</p><p className="indent-6">
 									- This is a reliable source because it's from EBSCOhost
 								</p>
 							</div>
@@ -45,7 +45,7 @@ export default function Home() {
 									“Ribosome.” <a className="italic">Funk & Wagnalls New World Encyclopedia</a>, Jan. 2018, p. 1. <a className="italic">EBSCOhost</a>, https://research.ebsco.com/c/bpxw7x/viewer/html/d5bj4syxcz?route=details
 								</p>
 								<p className="indent-6">
-									- We used this source because it tells us about ribosomes&shy;
+									- We used this source because it tells us about ribosomes</p><p className="indent-6">
 									- This is a reliable source because it's from EBSCOhost
 								</p>
 							</div>
@@ -54,7 +54,7 @@ export default function Home() {
 									“Vacuole.” <a className="italic">Funk & Wagnalls New World Encyclopedia</a>, Jan. 2018, p. 1. <a className="italic">EBSCOhost</a>, https://research.ebsco.com/c/bpxw7x/viewer/html/b3nqosbacf?route=details
 								</p>
 								<p className="indent-6">
-									- We used this source because it tells us about vacuoles&shy;
+									- We used this source because it tells us about vacuoles</p><p className="indent-6">
 									- This is a reliable source because it's from EBSCOhost
 								</p>
 							</div>
@@ -63,7 +63,7 @@ export default function Home() {
 									“Cell.” <a className="italic">Funk & Wagnalls New World Encyclopedia</a>, Jan. 2018, p. 1. <a className="italic">EBSCOhost</a>, https://research.ebsco.com/c/bpxw7x/viewer/html/gvt432lwor?route=details
 								</p>
 								<p className="indent-6">
-									- We used this source because it tells us about cells in general&shy;
+									- We used this source because it tells us about cells in general</p><p className="indent-6">
 									- This is a reliable source because it's from EBSCOhost
 								</p>
 							</div>
@@ -72,7 +72,7 @@ export default function Home() {
 									Mukherjee, Santanu. “Cell Wall: Definition, Structure, & Functions with Diagram.” <a className="italic">Science Facts</a>, 16 July 2020, www.sciencefacts.net/cell-wall.html
 								</p>
 								<p className="indent-6">
-									- We used this source because it tells us about cell walls and provides a great picture for our project&shy;
+									- We used this source because it tells us about cell walls and provides a great picture for our project</p><p className="indent-6">
 									- This is a reliable source because the author is an expert and the site’s information can be cross referenced with other reliable sources.
 								</p>
 							</div>
@@ -81,7 +81,7 @@ export default function Home() {
 									The Editors of Encyclopaedia Britannica. "nucleus". <a className="italic">Encyclopedia Britannica</a>, 16 Apr. 2024, https://www.britannica.com/science/nucleus-biology. Accessed 6 May 2024.
 								</p>
 								<p className="indent-6">
-									- We used this source because it tells us about the nucleus&shy;
+									- We used this source because it tells us about the nucleus</p><p className="indent-6">
 									- This is a reliable source because it’s from Britannica, which is a well-known source that is fact-checked by experts.
 								</p>
 							</div>
@@ -90,7 +90,7 @@ export default function Home() {
 									Rogers, Kara. "mitochondrion". <a className="italic">Encyclopedia Britannica</a>, 10 May. 2024, https://www.britannica.com/science/mitochondrion. Accessed 6 May 2024.
 								</p>
 								<p className="indent-6">
-									- We used this source because it tells us about mitochondria&shy;
+									- We used this source because it tells us about mitochondria</p><p className="indent-6">
 									- This is a reliable source because it’s from Britannica, which is a well-known source that is fact-checked by experts.
 								</p>
 							</div>
@@ -99,20 +99,20 @@ export default function Home() {
 									Rogers, Kara. "endoplasmic reticulum". <a className="italic">Encyclopedia Britannica</a>, 25 Apr. 2024, https://www.britannica.com/science/endoplasmic-reticulum. Accessed 13 May 2024.
 								</p>
 								<p className="indent-6">
-									- We used this source because it tells us about the endoplasmic reticulum&shy;
+									- We used this source because it tells us about the endoplasmic reticulum</p><p className="indent-6">
 									- This is a reliable source because it’s from Britannica, which is a well-known source that is fact-checked by experts.
 								</p>
 							</div>
 						</div>
 					</div>
 					<div className="basis-6/12 bg-nice-blue-500 rounded-lg mx-4 mt-4 mb-2"> {/*Sources #11-#20*/}
-						<div className="text-black text-left text-base mx-4 my-2 flex flex-col">
+						<div className="text-black text-left text-xs mx-4 my-2 flex flex-col">
 							<div className="my-2">{/*Source #11*/}
 								<p>
 									The Editors of Encyclopaedia Britannica. "plant cell". <a className="italic">Encyclopedia Britannica</a>, 3 May. 2024, https://www.britannica.com/science/plant-cell. Accessed 30 April 2024.
 								</p>
 								<p className="indent-6">
-									- We used this source because it tells us about plant cells&shy;
+									- We used this source because it tells us about plant cells</p><p className="indent-6">
 									- This is a reliable source because it’s from Britannica, which is a well-known source that is fact-checked by experts.
 								</p>
 							</div>
@@ -121,7 +121,7 @@ export default function Home() {
 									Staehelin, L. Andrew. "cell wall". <a className="italic">Encyclopedia Britannica</a>, 2 May. 2024, https://www.britannica.com/science/cell-wall-plant-anatomy. Accessed 6 May 2024.
 								</p>
 								<p className="indent-6">
-									- We used this source because it tells us about the cell wall&shy;
+									- We used this source because it tells us about the cell wall</p><p className="indent-6">
 									- This is a reliable source because it’s from Britannica, which is a well-known source that is fact-checked by experts.
 								</p>
 							</div>
@@ -130,7 +130,7 @@ export default function Home() {
 									The Editors of Encyclopaedia Britannica. "cytoplasm". <a className="italic">Encyclopedia Britannica</a>, 28 Feb. 2024, https://www.britannica.com/science/cytoplasm. Accessed 13 May 2024.
 								</p>
 								<p className="indent-6">
-									- We used this source because it tells us about the cytoplasm&shy;
+									- We used this source because it tells us about the cytoplasm</p><p className="indent-6">
 									- This is a reliable source because it’s from Britannica, which is a well-known source that is fact-checked by experts.
 								</p>
 							</div>
@@ -139,7 +139,7 @@ export default function Home() {
 									The Editors of Encyclopaedia Britannica. "chloroplast". <a className="italic">Encyclopedia Britannica</a>, 16 Apr. 2024, https://www.britannica.com/science/chloroplast. Accessed 13 May 2024.
 								</p>
 								<p className="indent-6">
-									- We used this source because it tells us about the chloroplast&shy;
+									- We used this source because it tells us about the chloroplast</p><p className="indent-6">
 									- This is a reliable source because it’s from Britannica, which is a well-known source that is fact-checked by experts.
 								</p>
 							</div>
@@ -148,7 +148,7 @@ export default function Home() {
 									Petruzzello, Melissa. "nucleolus". <a className="italic">Encyclopedia Britannica</a>, 18 Mar. 2024, https://www.britannica.com/science/nucleolus. Accessed 13 May 2024.
 								</p>
 								<p className="indent-6">
-									- We used this source because it tells us about the nucleolus&shy;
+									- We used this source because it tells us about the nucleolus</p><p className="indent-6">
 									- This is a reliable source because it’s from Britannica, which is a well-known source that is fact-checked by experts.
 								</p>
 							</div>
@@ -157,7 +157,7 @@ export default function Home() {
 									Tan, Xiaona et al. “A Review of Plant Vacuoles: Formation, Located Proteins, and Functions.” <a className="italic">Plants (Basel, Switzerland)</a> vol. 8,9 327. 5 Sep. 2019, doi:10.3390/plants8090327
 								</p>
 								<p className="indent-6">
-									- We used this source because it tells us basic information about plants&shy;
+									- We used this source because it tells us basic information about plants</p><p className="indent-6">
 									- This is a reliable source because it’s from the National Library of Medicine, which is a government source.
 								</p>
 							</div>
@@ -166,7 +166,7 @@ export default function Home() {
 									The Editors of Encyclopaedia Britannica. "cell membrane". <a className="italic">Encyclopedia Britannica</a>, 10 May. 2024, https://www.britannica.com/science/cell-membrane. Accessed 6 May 2024.
 								</p>
 								<p className="indent-6">
-									- We used this source because it tells us about the cell membrane&shy;
+									- We used this source because it tells us about the cell membrane</p><p className="indent-6">
 									- This is a reliable source because it’s from Britannica, which is a well-known source that is fact-checked by experts.
 								</p>
 							</div>
@@ -175,7 +175,7 @@ export default function Home() {
 									Miller, Kenneth and Levine, Joseph. <a className="italic">Experience Biology: The Living Earth</a>. Savvas, 2020.
 								</p>
 								<p className="indent-6">
-									- Used for lots of general information about plant cells and their parts&shy;
+									- Used for lots of general information about plant cells and their parts</p><p className="indent-6">
 									- This is a reliable source because it's our biology textbook we use in class.
 								</p>
 							</div>
@@ -184,7 +184,7 @@ export default function Home() {
 									Rogers, Kara. "Golgi apparatus". <a className="italic">Encyclopedia Britannica</a>, 8 May. 2024, https://www.britannica.com/science/Golgi-apparatus. Accessed 20 May 2024.
 								</p>
 								<p className="indent-6">
-									- Used for information about the Golgi apparatus&shy;
+									- Used for information about the Golgi apparatus</p><p className="indent-6">
 									- This is a reliable source because it’s from Britannica, which is a well-known source that is fact-checked by experts.
 								</p>
 							</div>
@@ -193,7 +193,7 @@ export default function Home() {
 									[MLA Citation]
 								</p>
 								<p className="indent-6">
-									- [Why we used this source]&shy;
+									- [Why we used this source]</p><p className="indent-6">
 									- [why the source is credible]
 								</p>
 							</div>
