@@ -15,7 +15,7 @@ export default function Home() {
 					<div className="flex-grow flex-auto bg-nice-green-500 rounded-lg mx-4 mt-4 mb-2">
 						<p className="text-black text-left text-2xl font-semibold mx-4 my-4 indent-6 leading-loose">
 							As you may know, <a className="font-extrabold text-nice-purple-500">all life is made up of cells</a>. This project details the inner workings of a typical plant cell. 
-							We interviewed biologist <a className="font-black text-nice-yellow-500">Dr. Nathan Pumplin</a>, CEO of Norfolk Healthy Produce, about 
+							We interviewed biologist <a className="font-black text-nice-pink-500">Dr. Nathan Pumplin</a>, CEO of Norfolk Healthy Produce, about 
 							the amazing and complex world of <a className=" font-extrabold text-nice-blue-700">plant biology</a>.
 							We also created a 3D model of a plant cell to help visualize what we learned.
 						</p>

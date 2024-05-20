@@ -13,18 +13,24 @@ export default function Home() {
 				<div className="flex flex-row">
 					<div className="flex-grow flex-auto bg-nice-blue-500 rounded-lg mx-4 mt-4 mb-2">
 						<p className="text-black text-left text-2xl font-semibold mx-4 my-4 indent-6 leading-loose">
-                        Thanks to Devansh Goel for helping create the base for our project, and Oliver Rich for
-						providing some of our 3D printing materials! 
-                        We would also like to thank all of our parents for buying many of the materials 
-                        we used to make this project. Finally, we would like to thank Dr. Nathan Pumplin for 
-						participating in our interview. Without all of these people, this project would not have been possible.
+							First, we would like to thank Devansh Goel for helping create the base for our project, and Oliver Rich for
+							providing some of our 3D printing materials! 
+							We would also like to thank all of our parents for buying many of the materials 
+							we used to make this project. Last but certainly not least, we would like to thank Dr. Nathan Pumplin for 
+							participating in our interview. Without all of these people, this project would not have been possible.
 						</p>
 					</div>
 				</div>
-				<div className="flex flex-row">
+				<div className="flex flex-row justify-center">
 					{/*add images of the people here*/}
-					<div className=" mx-4 self-center flex-auto">
+					<div className=" mx-4 self-center">
+						<Image src="/images/devansh.png" alt="" className="rounded-lg border-8 border-solid border-nice-green-600 object-contain" width={300} height={300}/>
+					</div>
+					<div className=" mx-4 self-center">
 						<Image src="/images/en_passant.png" alt="" className="rounded-lg border-8 border-solid border-nice-green-600 object-contain" width={300} height={300}/>
+					</div>
+					<div className=" mx-4 self-center">
+						<Image src="/images/oliver.png" alt="" className="rounded-lg border-8 border-solid border-nice-green-600 object-contain" width={300} height={300}/>
 					</div>
 				</div>
 			</div>
