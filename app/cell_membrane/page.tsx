@@ -6,6 +6,7 @@ import { useState } from "react";
 import { dropdown } from "../navigation_dropdown.tsx";
 
 // The Cell Membrane: The Gatekeeper of the Cell
+// Image #1 from https://www.thoughtco.com/cell-membrane-373364
 export default function Home() {
 	const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
@@ -16,6 +17,7 @@ export default function Home() {
 	return (
 		<main className={`${futura.className} flex flex-col h-screen`}>
 			<div className="rounded-lg bg-gradient-to-r from-nice-blue-600 to-nice-blue-500 p-7 mx-4 mb-2 mt-4">
+<<<<<<< HEAD
 				<button
 					className="absolute top-2 left-2 rounded-lg bg-nice-purple-400 text-black text-xl mx-4 my-4 object-top-left border-solid border-nice-yellow-300 border-2 p-2"
 					onClick={toggleDropdown}
@@ -26,26 +28,37 @@ export default function Home() {
 					dropdown()
 				)}
 				<h1 className="text-black text-center text-6xl font-black p-2 underline decoration-3 decoration-nice-purple-600 decoration-double">The Cell Membrane</h1>
+=======
+				<h1 className="text-black text-center text-6xl font-black p-2 underline decoration-3 decoration-nice-purple-600 decoration-double">Cell Membrane</h1>
+>>>>>>> 16b52560d17fc85bbb723e9243d2f6eedfd7962b
 				<h2 className="text-black text-center text-3xl font-bold mt-2 italic">Gatekeeper of the Cell</h2>
 			</div>
 			<div className="grid grid-cols-1 grid-rows-2 gap-0 bg-gradient-to-b from-nice-blue-200 to-nice-blue-300 rounded-lg mt-0 w-screen-4 flex-grow mx-4">
 				<div className="flex flex-row">
 					<div className="flex-grow flex-auto bg-nice-blue-500 rounded-lg mx-4 mt-4 mb-2">
-						<p className="text-black text-left text-2xl font-semibold mx-4 my-4 indent-6 leading-loose">
-							TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT NEED ENOUGH TEXT FOR THIS TO LINE WRAP
+						<p className="text-black text-left text-3xl font-semibold mx-4 my-4 indent-6 leading-loose">
+							The <a className="font-extrabold text-nice-pink-600">cell membrane</a> is a thin membrane surrounding every living cell. It acts 
+							primarily as protection, as it is a <a className="font-extrabold text-nice-purple-600">selectively permeable</a> membrane 
+							that keeps out unwanted substances. It is primarily composed of lipids and proteins, 
+							both of which are of two types. Membrane lipids are either phospholipids or sterols, 
+							while membrane proteins are either extrinsic or intrinsic.
 						</p>
 					</div>
-					<div className=" mx-4 self-center flex-auto">
-						<Image src="/images/dashspider.jpg" alt="" className="rounded-lg border-8 border-solid border-nice-green-600 object-contain max-h-96 max-w-96" width={500} height={500}/>
+					<div className="mr-4 self-center shrink-0">
+						<Image src="/images/cell_membrane.png" alt="" className="rounded-lg border-8 border-solid border-nice-blue-600 object-contain max-h-96 max-w-96" width={500} height={500}/>
 					</div>
 				</div>
 				<div className="flex flex-row">
-					<div className=" mx-4 self-center flex-auto">
-						<Image src="/images/en_passant.png" alt="" className="rounded-lg border-8 border-solid border-nice-green-600 object-contain" width={300} height={300}/>
+					<div className="ml-4 self-center shrink-0">
+						<Image src="/images/en_passant.png" alt="" className="rounded-lg border-8 border-solid border-nice-blue-600 object-contain" width={300} height={300}/>
 					</div>
 					<div className="flex-grow flex-auto bg-nice-blue-500 rounded-lg mx-4 mt-2 mb-4">
 						<p className="text-black text-left text-2xl font-semibold mx-4 my-4 indent-6 leading-loose">
-							TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT NEED ENOUGH TEXT FOR THIS TO LINE WRAP
+							The cell membrane is composed of a <a className="font-extrabold text-nice-pink-600">phospholipid bilayer</a>, which is a 
+							double layer of phospholipids. The phospholid bilayer has hydrophilic heads and 
+							a hydrophilic tail. The structure of the membrane is such small molecules can pass through it, while larger
+							molecules, charged ions, etc. cannot. The proteins in the membrane help cells to communicate, maintain 
+							their shape, and transport substances in and out of the cell.
 						</p>
 					</div>
 				</div>
