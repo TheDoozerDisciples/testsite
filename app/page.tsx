@@ -35,7 +35,9 @@ export default function Home() {
 							As you may know, <a className="font-extrabold text-nice-purple-500">all life is made up of cells</a>. This project details the inner workings of a typical plant cell. 
 							We interviewed biologist <a className="font-black text-nice-pink-500">Dr. Nathan Pumplin</a>, CEO of Norfolk Healthy Produce, about 
 							the amazing and complex world of <a className=" font-extrabold text-nice-blue-700">plant biology</a>. 
-							We also created a 3D model of a plant cell to help visualize what we have learned.
+							We also created a 3D model of a plant cell to help visualize what we have learned. There are also several other 
+							models that correspond to different things, such as the annotated bibliography, 
+							interview takeaways, or acknowledgements.
 						</p>
 					</div>
 					<div className="mr-4 self-center shrink-0">
@@ -50,13 +52,14 @@ export default function Home() {
 						<p className="text-black text-left text-3xl font-semibold mx-4 mt-4 indent-6 leading-loose">
 							Every component in the model you see before you is <a className="font-extrabold text-nice-blue-600">removable</a>. 
 							To get started, try placing a part of the cell on the base. Please be patient, it can take a little bit of time to load. 
-							Do not touch any of the components other than the model, and place the model parts back where they were.
+							Do not touch any of the components other than the model, and place the model parts back where they were after you are done reading.
 						</p>
 						<p className="text-black text-left text-2xl font-semibold mx-4 mt-2 mb-4 indent-6 leading-loose">
 							DISCLAIMER: This model is <a className="font-extrabold text-red-600">NOT</a> to scale. Cell parts may be shaped differently in this model than in reality. 
 							For example, in this model the cell wall is below all the other cell parts and is filled in, but 
 							in reality the cell wall surrounds all the other cell parts and is is not filled in. A similar misrepresentation can 
-							be seen with the model of the cell membrane.
+							be seen with the model of the cell membrane. Note that these misrepresentations are 
+							for educational purposes, as it makes it easier to show each individual cell part.
 						</p>
 					</div>
 				</div>

@@ -211,8 +211,8 @@ export default function Home() {
 								Martin, William F et al. “Endosymbiotic theories for eukaryote origin.” <a className="italic">Philosophical transactions of the Royal Society of London. Series B, Biological sciences</a> vol. 370,1678 (2015): 20140330. doi:10.1098/rstb.2014.0330
 								</p>
 								<p className="indent-6 text-sm">
-									- [Why we used this source]</p><p className="indent-6 text-sm">
-									- [why the source is credible]
+									- This source provided information about the endosymbiotic theory</p><p className="indent-6 text-sm">
+									- This source is credible because it is from a government source.
 								</p>
 							</div>
 						</div>
