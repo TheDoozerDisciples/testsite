@@ -1,5 +1,9 @@
+"use client";
 import Image from "next/image";
 import { futura } from "../fonts.ts"
+import Link from "next/link"
+import { useState } from "react";
+import { dropdown } from "../navigation_dropdown.tsx";
 
 // Interview Takeawys
 export default function Home() {
