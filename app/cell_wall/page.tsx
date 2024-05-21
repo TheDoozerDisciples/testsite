@@ -16,7 +16,7 @@ export default function Home() {
 					<div className="flex-grow flex-auto bg-nice-green-500 rounded-lg mx-4 mt-4 mb-2">
 						<p className="text-black text-left text-2xl font-semibold mx-4 mt-4 indent-6 leading-loose">
                             The <a className="font-extrabold text-nice-blue-700">cell wall</a> is a form of <a className="font-extrabold text-nice-pink-600">extracellular matrix</a> that serves as structural support for the cell. 
-                            In addition, it also provides <a className="font-extrabold text-nice-purple-600">mechanical and chemical protection</a>, provides a medium for the circulation and 
+                            In addition, it also provides <a className="font-extrabold text-nice-purple-600">mechanical and chemical protection</a> and provides a medium for the circulation and 
                             distribution of water and other nutrients. 
 						</p>
                         <p className="text-black text-left text-2xl font-semibold mx-4 my-t-2 mb-4 indent-6 leading-loose">
@@ -31,17 +31,17 @@ export default function Home() {
 						</p>
 					</div>
 					<div className="mr-4 self-center shrink-0">
-						<Image src="/images/cell_wall.jpg" alt="" className="rounded-lg border-8 border-solid border-nice-green-600 object-contain max-h-96 max-w-96" width={500} height={500}/>
+						<Image src="/images/cell_wall.jpg" alt="" className="rounded-lg border-8 border-solid border-nice-green-600 object-contain" width={500} height={500}/>
 					</div>
 				</div>
 				<div className="flex flex-row">
 					<div className="ml-4 self-center shrink-0">
-						<Image src="/images/plasmodesma.jpg" alt="" className="rounded-lg border-8 border-solid border-nice-green-600 object-contain" width={500} height={500}/>
+						<Image src="/images/plasmodesma.jpg" alt="" className="rounded-lg border-8 border-solid border-nice-green-600 object-contain" width={600} height={600}/>
 					</div>
 					<div className="flex-grow flex-auto bg-nice-green-500 rounded-lg mx-4 mt-2 mb-4">
 						<p className="text-black text-left text-2xl font-semibold mx-4 my-4 indent-6 leading-loose">
 							The secondary wall is responsible for most of a plant’s mechanical support and is 
-                            much more rigid than the primary wall. <br />
+                            much more rigid than the primary wall. </p><p className="text-black text-left text-2xl font-semibold mx-4 my-4 indent-6 leading-loose">
 							There is also a channel connecting the cell walls of adjacent plant cells, called the <a className="font-extrabold text-nice-pink-600">plasmodesma</a>. 
 							It allows for direct molecular communication between the adjacent cells. 
 							Plasmodesmata are lined with <a className="font-extrabold text-nice-blue-700">cell membrane</a>, 

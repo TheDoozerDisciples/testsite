@@ -22,15 +22,15 @@ export default function Home() {
 						</p>
 					</div>
 				</div>
-				<div className="flex flex-row justify-center flex-grow">
+				<div className="flex flex-row justify-center flex-grow justify-around">
 					{/*add images of the people here*/}
-					<div className=" mx-4 self-center mr-6">
+					<div className=" mx-4 self-center">
 						<Image src="/images/devansh.png" alt="" className="rounded-lg border-8 border-solid border-nice-green-600 object-contain" width={400} height={400}/>
 					</div>
 					<div className=" mx-4 self-center">
 						<Image src="/images/pumplin.png" alt="" className="rounded-lg border-8 border-solid border-nice-green-600 object-contain" width={400} height={400}/>
 					</div>
-					<div className=" mx-4 self-center ml-6">
+					<div className=" mx-4 self-center">
 						<Image src="/images/oliver.png" alt="" className="rounded-lg border-8 border-solid border-nice-green-600 object-contain" width={400} height={400}/>
 					</div>
 				</div>

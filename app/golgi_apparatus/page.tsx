@@ -14,7 +14,7 @@ export default function Home() {
 			<div className="grid grid-cols-1 grid-rows-2 gap-0 bg-gradient-to-b from-nice-purple-200 to-nice-purple-300 rounded-lg mt-0 w-screen-4 flex-grow mx-4">
 				<div className="flex flex-row">
 					<div className="flex-grow flex-auto bg-nice-blue-500 rounded-lg mx-4 mt-4 mb-2">
-						<p className="text-black text-left text-[28px] font-semibold mx-4 my-4 indent-6 leading-loose">
+						<p className="text-black text-left text-[27px] font-semibold mx-4 my-4 indent-6 leading-loose">
 							The <a className="font-extrabold text-nice-pink-600">Golgi apparatus</a>, also known as the 
 							golgi complex or golgi body, functions as a factory that is responsible for 
 							transporting, modifying, and packaging <a className="font-extrabold text-nice-purple-600">membranes, secretory proteins, and lipids</a>. 
@@ -34,13 +34,16 @@ export default function Home() {
 						<Image src="/images/golgi_body_microscope.jpg" alt="" className="rounded-lg border-8 border-solid border-nice-blue-600 object-contain" width={400} height={400}/>
 					</div>
 					<div className="flex-grow flex-auto bg-nice-blue-500 rounded-lg mx-4 mt-2 mb-4">
-						<p className="text-black text-left text-[28px] font-semibold mx-4 my-4 indent-6 leading-loose">
+						<p className="text-black text-left text-[27px] font-semibold mx-4 my-4 indent-6 leading-loose">
 							The Golgi apparatus also performs <a className="font-extrabold text-nice-pink-600">lipid metabolism</a>. 
 							Lipid metabolism is the process where the stomach and duodenum 
 							synthesize and deteriorate lipids to create and store energy. 
-							It also synthesizes glycolipids and sphingomyelin. Finally, 
+							It also synthesizes glycolipids and sphingomyelin. Glycolipids are a type of lipid that maintains 
+							the stability of the cell membrane. They are found on the surface of all eukaryotic cell membranes, 
+							while sphingomyelin serves a completely different purpose and is found only in animal cells. Finally, 
 							the Golgi apparatus processes them and then sorts them to the 
-							correct <a className="font-extrabold text-nice-purple-600">intracellular compartment</a>, which is the space within the organism's cells.
+							correct <a className="font-extrabold text-nice-purple-600">intracellular compartment</a>, which is the 
+							space within the organism's cells.
 						</p>
 					</div>
 				</div>
