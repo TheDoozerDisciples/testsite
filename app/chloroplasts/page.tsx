@@ -33,7 +33,7 @@ export default function Home() {
 			<div className="flex flex-col bg-gradient-to-b from-nice-blue-200 to-nice-blue-300 rounded-lg mt-0 w-screen-4 flex-grow mx-4">
 				<div className="flex flex-row">
 					<div className="flex-grow flex-auto bg-nice-green-400 rounded-lg mx-4 mt-4 mb-2">
-						<p className="text-black text-left text-2xl font-semibold mx-4 my-4 indent-6 leading-loose">
+						<p className="text-black text-left text-[26px] font-semibold mx-4 my-4 indent-6 leading-loose">
                             Initially discovered in 1837 by Hugo von Mohl, <a className="font-extrabold text-nice-purple-500">chloroplasts</a> are 
 							organelles found only in the cells of photosynthesizing organisms, 
                             mainly plants and green algae. The name chloroplast was first used for them in 
@@ -47,15 +47,15 @@ export default function Home() {
 						</p>
 					</div>
 					<div className="mr-4 self-center shrink-0">
-						<Image src="/images/chloroplast.jpg" alt="" className="rounded-lg border-8 border-solid border-nice-green-500 object-contain max-h-96 max-w-96" width={500} height={500}/>
+						<Image src="/images/chloroplast.jpg" alt="" className="rounded-lg border-8 border-solid border-nice-green-500 object-contain" width={500} height={500}/>
 					</div>
 				</div>
 				<div className="flex flex-row flex-grow">
 					<div className="ml-4 self-center shrink-0">
-						<Image src="/images/photosynthesis.png" alt="" className="rounded-lg border-8 border-solid border-nice-green-500 object-contain" width={400} height={400}/>
+						<Image src="/images/photosynthesis.png" alt="" className="rounded-lg border-8 border-solid border-nice-green-500 object-contain" width={450} height={450}/>
 					</div>
 					<div className="flex-grow flex-auto bg-nice-green-400 rounded-lg mx-4 mt-2 mb-4">
-						<p className="text-black text-left text-2xl font-semibold mx-4 my-4 indent-6 leading-loose">
+						<p className="text-black text-left text-[26px] font-semibold mx-4 my-4 indent-6 leading-loose">
                             Chloroplasts help perform photosynthesis, the process in which plants convert light energy into chemical energy, 
                             creating oxygen and other compounds in the process. First, 
                             the <a className="font-extrabold text-nice-pink-400">electron transport chain</a> converts <a className="font-extrabold text-nice-purple-500">ADP</a> to the energy-rich 
@@ -63,7 +63,7 @@ export default function Home() {
 							which together with ATP is used in light-independent 
                             reactions that assimilate water and carbon dioxide into organic compounds.
 						</p>
-						<p className="text-black text-left text-2xl font-semibold mx-4 my-4 indent-6 leading-loose">
+						<p className="text-black text-left text-[26px] font-semibold mx-4 my-4 indent-6 leading-loose">
 							Chloroplasts are made up of three different membranes: the outer membrane, the inner membrane, and the thylakoid membrane. 
 							The thylakoid membrane is where the <a className="font-extrabold text-nice-purple-500">light-dependent</a> reactions of photosynthesis occur. 
 							The stroma, a fluid-filled space inside the chloroplast, is where the <a className="font-extrabold text-nice-pink-500">light-independent</a> reactions of photosynthesis occur.

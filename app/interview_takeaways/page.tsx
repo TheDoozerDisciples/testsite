@@ -47,7 +47,7 @@ export default function Home() {
 								is what causes this, but a lot about this phenomenon is still unknown.
 						</p>
 					</div>
-					<div className="flex flex-col ml-4 mr-2">
+					<div className="flex flex-col ml-2 mr-4 my-4 basis-3/12 shrink-0 justify-evenly">
 						<div className="self-center shrink-0 mb-6">
 							<Image src="/images/norfolk_healthy_produce.png" alt="" className="rounded-lg border-8 border-solid border-nice-pink-300 object-contain" width={500} height={500}/>
 						</div>
