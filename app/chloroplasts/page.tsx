@@ -4,7 +4,6 @@ import { futura } from "../fonts.ts"
 // Chloroplasts
 // Image #1 from https://www.nature.com/scitable/topicpage/plant-cells-chloroplasts-and-cell-walls-14053956/
 // Image #2 from https://www.khanacademy.org/science/ap-biology/cellular-energetics/photosynthesis/a/intro-to-photosynthesis
-// write a bit more here
 export default function Home() {
 	return (
 		<main className={`${futura.className} flex flex-col h-screen`}>
@@ -16,8 +15,10 @@ export default function Home() {
 				<div className="flex flex-row">
 					<div className="flex-grow flex-auto bg-nice-green-400 rounded-lg mx-4 mt-4 mb-2">
 						<p className="text-black text-left text-2xl font-semibold mx-4 my-4 indent-6 leading-loose">
-                            <a className="font-extrabold text-nice-purple-500">Chloroplasts</a> are organelles found only in the cells of photosynthesizing organisms, 
-                            mainly plants and green algae. They enable the plant to 
+                            Initially discovered in 1837 by Hugo von Mohl, <a className="font-extrabold text-nice-purple-500">chloroplasts</a> are 
+							organelles found only in the cells of photosynthesizing organisms, 
+                            mainly plants and green algae. The name chloroplast was first used for them in 
+							1884 by Eduard Strasburger. They enable the plant to 
                             perform <a className="font-extrabold text-nice-pink-400">photosynthesis</a> and are what gives plants their green color. 
                             They are a type of <a className="font-extrabold text-nice-purple-500">plastid</a>— a round, oval, or disk-shaped body 
                             involved in the synthesis and/or storage of foodstuffs. What distinguishes 

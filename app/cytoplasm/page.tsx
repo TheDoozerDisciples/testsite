@@ -30,14 +30,16 @@ export default function Home() {
                 </div>
                 <div className="flex flex-row">
                     <div className="ml-4 self-center shrink-0">
-                        <Image src="/images/en_passant.png" alt="" className="rounded-lg border-8 border-solid border-nice-yellow-500 object-contain" width={300} height={300}/>
+                        <Image src="/images/cytoskeleton_parts.png" alt="" className="rounded-lg border-8 border-solid border-nice-yellow-500 object-contain" width={400} height={400}/>
                     </div>
                     <div className="flex-grow flex-auto bg-nice-yellow-400 rounded-lg mx-4 mt-2 mb-4">
                         <p className="text-black text-left text-2xl font-semibold mx-4 my-4 indent-6 leading-loose">
-                            The cytoskeleton inside the cytoplasm is made of a complex network of protein filaments. 
+                            Initially discovered in 1903 by Nikolai K. Koltsov, the cytoskeleton is made of a complex network of protein filaments. 
                             The three main components that make up the cytoskeleton are microfilaments, 
-                            intermediate filaments, and microtubules. In eukaryotes, it extends out from the nucleus to the cell membrane. 
-                            The cytoskeleton is also capable contracting in order to allow cells to migrate, 
+                            intermediate filaments, and microtubules. For some time after its discovery, it was thought of 
+                            as uninteresting, but it is actually quite complex. In eukaryotes, it extends out from the nucleus to the cell membrane. 
+                            Its main purpose is to help maintain the shape and structure of the cell, and it 
+                            is also capable contracting in order to allow cells to migrate.
                         </p>
                     </div>
                 </div>
