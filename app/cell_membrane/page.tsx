@@ -31,7 +31,7 @@ export default function Home() {
 						<Image src="/images/selective_transport.jpg" alt="" className="rounded-lg border-8 border-solid border-nice-blue-600 object-contain" width={350} height={350}/>
 					</div>
 					<div className="flex-grow flex-auto bg-nice-blue-500 rounded-lg mx-4 mt-2 mb-4">
-						<p className="text-black text-left text-2xl font-semibold mx-4 my-4 indent-6 leading-loose">
+						<p className="text-black text-left text-3xl font-semibold mx-4 my-4 indent-6 leading-loose">
 							The cell membrane is composed of a <a className="font-extrabold text-nice-pink-600">phospholipid bilayer</a>, which is a 
 							double layer of phospholipids. The phospholid bilayer has hydrophilic heads and 
 							a hydrophilic tail. The structure of the membrane is such small molecules can pass through it, while larger

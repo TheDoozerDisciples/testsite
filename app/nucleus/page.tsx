@@ -14,13 +14,16 @@ export default function Home() {
             <div className="grid grid-cols-1 grid-rows-2 gap-0 bg-gradient-to-b from-nice-green-200 to-nice-green-300 rounded-lg mt-0 w-screen-4 flex-grow mx-4">
                 <div className="flex flex-row">
                     <div className="flex-grow flex-auto bg-nice-blue-400 rounded-lg mx-4 mt-4 mb-2">
-                        <p className="text-black text-left text-2xl font-semibold mx-4 my-4 indent-6 leading-loose">
+                        <p className="text-black text-left text-3xl font-semibold mx-4 my-4 indent-6 leading-loose">
                             The <a className="font-extrabold text-nice-purple-600">nucleus</a> is a large circular object that can be found in almost all cells, 
                             except those of bacteria and blue-green algae. It is separated from the rest of the cell by 
                             the <a className="font-extrabold text-nice-purple-600">nuclear membrane</a> and contains the 
                             cell’s <a className="font-extrabold text-nice-pink-600">genes</a>, acting as the main center of information for a 
                             cell. <a className="font-extrabold text-nice-pink-600">DNA</a> is stored in <a className="font-extrabold text-nice-purple-600">chromosomes</a>, 
                             staying bundled together except during <a className="font-extrabold text-nice-pink-600">cell division</a>. 
+                            DNA is transcribed into <a className="font-extrabold text-nice-pink-600">messenger RNA</a>, which 
+                            is used to encode the information for proteins. The mRNA are then transported through the nuclear envelope
+                            and into the cytoplasm, where they are translated into proteins.
                         </p>
                     </div>
                     <div className="mr-4 self-center shrink-0">
@@ -32,7 +35,7 @@ export default function Home() {
                         <Image src="/images/nucleus.jpg" alt="" className="rounded-lg border-8 border-solid border-nice-blue-600 object-contain" width={400} height={400}/>
                     </div>
                     <div className="flex-grow flex-auto bg-nice-blue-400 rounded-lg mx-4 mt-2 mb-4">
-                        <p className="text-black text-left text-2xl font-semibold mx-4 my-4 indent-6 leading-loose">
+                        <p className="text-black text-left text-3xl font-semibold mx-4 my-4 indent-6 leading-loose">
                             Inside the nucleus is the <a className="font-extrabold text-nice-purple-600">nucleolus</a>, 
                             which is involved in the synthesis of <a className="font-extrabold text-nice-pink-600">ribosomal RNA</a> and 
                             the formation of <a className="font-extrabold text-nice-purple-600">ribosomes</a>. 

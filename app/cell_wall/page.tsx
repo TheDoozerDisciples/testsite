@@ -39,11 +39,11 @@ export default function Home() {
 						<Image src="/images/plasmodesma.jpg" alt="" className="rounded-lg border-8 border-solid border-nice-green-600 object-contain" width={500} height={500}/>
 					</div>
 					<div className="flex-grow flex-auto bg-nice-green-500 rounded-lg mx-4 mt-2 mb-4">
-						<p className="text-black text-left text-2xl font-semibold mx-4 my-4 indent-6 leading-loose">
-                        There is also a channel connecting the cell walls of adjacent plant cells, called the <a className="font-extrabold text-nice-pink-600">plasmodesma</a>. 
-                        It allows for direct molecular communication between the adjacent cells. 
-                        Plasmodesmata are lined with <a className="font-extrabold text-nice-blue-700">cell membrane</a>, 
-                        effectively connecting every cell in the plant with a single continuous cell membrane.
+						<p className="text-black text-left text-3xl font-semibold mx-4 my-4 indent-6 leading-loose">
+							There is also a channel connecting the cell walls of adjacent plant cells, called the <a className="font-extrabold text-nice-pink-600">plasmodesma</a>. 
+							It allows for direct molecular communication between the adjacent cells. 
+							Plasmodesmata are lined with <a className="font-extrabold text-nice-blue-700">cell membrane</a>, 
+							effectively connecting every cell in the plant with a single continuous cell membrane.
 						</p>
 					</div>
 				</div>
