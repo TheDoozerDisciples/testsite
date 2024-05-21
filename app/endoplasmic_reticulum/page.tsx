@@ -8,6 +8,7 @@ import { dropdown } from "../navigation_dropdown.tsx";
 // Endoplasmic Reticulum (and ribosomes)
 // Image #1 from https://www.britannica.com/science/endoplasmic-reticulum
 // Image #2 from https://www.news-medical.net/life-sciences/Ribosome-Function-in-Cells.aspx
+// write a little more under ribosomes
 export default function Home() {
     const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
@@ -57,7 +58,7 @@ export default function Home() {
                     </div>
                     <div className="flex-grow flex-auto bg-nice-purple-400 rounded-lg mx-4 mt-2 mb-4">
                         <p className="text-black text-left text-2xl font-semibold mx-4 my-4 indent-6 leading-loose">
-                            Ribosomes are generally attached to the rough endoplasmic reticulum, 
+                            Ribosomes were first discovered in 1955 by George E. Palade. They are generally associated with the rough endoplasmic reticulum, 
                             but they can also be free particles in the cytoplasm. A single eukaryotic cell may contain as many 
                             as 10 million ribosomes, making them incredibly abundant in cells. 
                             In eukaryotes, ribosomes are approximately half protein and half <a className="font-extrabold text-nice-blue-600">RNA</a>. 
