@@ -13,10 +13,37 @@ export function dropdown(){
                     <Link href="/page_template">Page Template</Link>
                 </li>
                 <li>
-                    <Link href="/cell_wall">Cell Wall</Link>
+                    <Link href="/acknowledgements">Acknowledgements</Link>
+                </li>
+                <li>
+                    <Link href="/annotated_bibliography">Annotated Bibliography</Link>
                 </li>
                 <li>
                     <Link href="/cell_membrane">Cell Membrane</Link>
+                </li>
+                <li>
+                    <Link href="/cell_wall">Cell Wall</Link>
+                </li>
+                <li>
+                    <Link href="/chloroplasts">Chloroplasts</Link>
+                </li>
+                <li>
+                    <Link href="/cytoplasm">Cytoplasm</Link>
+                </li>
+                <li>
+                    <Link href="/endoplasmic_reticulum">Endoplasmic Reticulum</Link>
+                </li>
+                <li>
+                    <Link href="/golgi_apparatus">Golgi Apparatus</Link>
+                </li>
+                <li>
+                    <Link href="/mitochondria">Mitochondria</Link>
+                </li>
+                <li>
+                    <Link href="/nucleus">Nucleus</Link>
+                </li>
+                <li>
+                    <Link href="/vacuoles">Vacuoles</Link>
                 </li>
             </ul>
         </div>

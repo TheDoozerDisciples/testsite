@@ -1,20 +1,39 @@
+"use client";
 import Image from "next/image";
 import { futura } from "../fonts.ts"
+import Link from "next/link"
+import { useState } from "react";
+import { dropdown } from "../navigation_dropdown.tsx";
 
 // The Nucleus
 // Image #1 from: https://biologydictionary.net/cell-nucleus/
 // Image #2 from: https://www.britannica.com/science/nucleus-biology#/media/1/422009/299945
 export default function Home() {
+    const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+
+	const toggleDropdown = () => {
+		setIsDropdownOpen(!isDropdownOpen);
+	};
+
     return (
         <main className={`${futura.className} flex flex-col h-screen`}>
             <div className="rounded-lg bg-gradient-to-r from-nice-blue-600 to-nice-blue-500 p-7 mx-4 mb-2 mt-4">
+                <button
+					className="absolute top-2 left-2 rounded-lg bg-nice-purple-400 text-black text-xl mx-4 my-4 object-top-left border-solid border-nice-yellow-300 border-2 p-2"
+					onClick={toggleDropdown}
+				>
+					Navigation
+				</button>
+				{isDropdownOpen && (
+					dropdown()
+				)}
                 <h1 className="text-black text-center text-6xl font-black p-2 underline decoration-3 decoration-nice-purple-600 decoration-double">The Nucleus</h1>
                 <h2 className="text-black text-center text-3xl font-bold mt-2 italic">Genetic Information Center</h2>
             </div>
             <div className="grid grid-cols-1 grid-rows-2 gap-0 bg-gradient-to-b from-nice-green-200 to-nice-green-300 rounded-lg mt-0 w-screen-4 flex-grow mx-4">
                 <div className="flex flex-row">
                     <div className="flex-grow flex-auto bg-nice-blue-400 rounded-lg mx-4 mt-4 mb-2">
-                        <p className="text-black text-left text-2xl font-semibold mx-4 my-4 indent-6 leading-loose">
+                        <p className="text-black text-left text-3xl font-semibold mx-4 my-4 indent-6 leading-loose">
                             The <a className="font-extrabold text-nice-purple-600">nucleus</a> is a large circular object that can be found in almost all cells, 
                             except those of bacteria and blue-green algae. It is separated from the rest of the cell by 
                             the <a className="font-extrabold text-nice-purple-600">nuclear membrane</a> and contains the 

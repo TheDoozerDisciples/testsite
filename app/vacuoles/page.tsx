@@ -1,13 +1,32 @@
+"use client";
 import Image from "next/image";
 import { futura } from "../fonts.ts"
+import Link from "next/link"
+import { useState } from "react";
+import { dropdown } from "../navigation_dropdown.tsx";
 
 // Vacuoles
 // Image #1 from: https://www.geeksforgeeks.org/vacuoles/
 // Image #2 from: https://www.ahmadcoaching.com/2020/11/structure-and-function-of-vacuole.html
 export default function Home() {
+    const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+
+	const toggleDropdown = () => {
+		setIsDropdownOpen(!isDropdownOpen);
+	};
+
 	return (
 		<main className={`${futura.className} flex flex-col h-screen`}>
 			<div className="rounded-lg bg-gradient-to-r from-nice-purple-600 to-nice-purple-500 p-7 mx-4 mb-2 mt-4">
+                <button
+					className="absolute top-2 left-2 rounded-lg bg-nice-purple-400 text-black text-xl mx-4 my-4 object-top-left border-solid border-nice-yellow-300 border-2 p-2"
+					onClick={toggleDropdown}
+				>
+					Navigation
+				</button>
+				{isDropdownOpen && (
+					dropdown()
+				)}
 				<h1 className="text-black text-center text-6xl font-black p-2 underline decoration-3 decoration-nice-blue-500 decoration-double">Vacuoles</h1>
 				<h2 className="text-black text-center text-3xl font-bold mt-2 italic">Waste Management Center</h2>
 			</div>

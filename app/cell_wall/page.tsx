@@ -17,9 +17,8 @@ export default function Home() {
 
 	return (
 		<main className={`${futura.className} flex flex-col h-screen`}>
-<<<<<<< HEAD
-			<div className="rounded-lg bg-gradient-to-r from-nice-green-600 to-nice-green-500 p-7 mx-4 mb-2 mt-4">
-            <button
+			<div className="rounded-lg bg-gradient-to-r from-nice-green-700 to-nice-green-600 p-7 mx-4 mb-2 mt-4">
+            	<button
 					className="absolute top-2 left-2 rounded-lg bg-nice-purple-400 text-black text-xl mx-4 my-4 object-top-left border-solid border-nice-yellow-300 border-2 p-2"
 					onClick={toggleDropdown}
 				>
@@ -28,9 +27,6 @@ export default function Home() {
 				{isDropdownOpen && (
 					dropdown()
 				)}
-=======
-			<div className="rounded-lg bg-gradient-to-r from-nice-green-700 to-nice-green-600 p-7 mx-4 mb-2 mt-4">
->>>>>>> 16b52560d17fc85bbb723e9243d2f6eedfd7962b
 				<h1 className="text-black text-center text-6xl font-black p-2 underline decoration-3 decoration-nice-purple-600 decoration-double">The Cell Wall</h1>
 				<h2 className="text-black text-center text-3xl font-bold mt-2 italic">Armor of the Cell</h2>
 			</div>

@@ -1,11 +1,30 @@
+"use client";
 import Image from "next/image";
 import { futura } from "../fonts.ts"
+import Link from "next/link"
+import { useState } from "react";
+import { dropdown } from "../navigation_dropdown.tsx";
 
 // Acknowledgements!
 export default function Home() {
+	const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+
+	const toggleDropdown = () => {
+		setIsDropdownOpen(!isDropdownOpen);
+	};
+
 	return (
 		<main className={`${futura.className} flex flex-col h-screen`}>
 			<div className="rounded-lg bg-gradient-to-r from-nice-blue-600 to-nice-blue-500 p-4 mx-4 mb-2 mt-4">
+				<button
+					className="absolute top-2 left-2 rounded-lg bg-nice-purple-400 text-black text-xl mx-4 my-4 object-top-left border-solid border-nice-yellow-300 border-2 p-2"
+					onClick={toggleDropdown}
+				>
+					Navigation
+				</button>
+				{isDropdownOpen && (
+					dropdown()
+				)}
 				<h1 className="text-black text-center text-6xl font-black p-2 underline decoration-3 decoration-nice-purple-600 decoration-double">Annotated Bibliography</h1>
 			</div>
 			<div className="grid grid-cols-1 grid-rows-1 gap-0 bg-gradient-to-b from-nice-blue-200 to-nice-blue-300 rounded-lg mt-0 w-screen-4 flex-grow mx-4">
