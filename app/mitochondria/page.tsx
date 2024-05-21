@@ -2,8 +2,8 @@ import Image from "next/image";
 import { futura } from "../fonts.ts"
 
 // Mitocondria
-// Image #1 from: [link goes here]
-// Image #2 from: [link goes here]
+// Image #1 from: https://www.medicalnewstoday.com/articles/320875#structure
+// Image #2 from: https://www.amazon.com/Mitochondria-Powerhouse-Cell-Science-Notebook/dp/1082196754
 export default function Home() {
     return (
         <main className={`${futura.className} flex flex-col h-screen`}>
@@ -19,23 +19,26 @@ export default function Home() {
                             are organelles found in almost all eukaryotic cells. A mitochondrion’s main purpose is to generate energy 
                             for the cell in the form of <a className="font-extrabold text-nice-pink-600">adenosine triphosphate (ATP)</a>. 
                             ATP is used for many important processes in the cell, making mitochondria one of the most important 
-                            organelles of eukaryotic cells. Mitochondria are typically oval in shape and have a 
-                            size of about 0.5 to 10 micrometers. 
+                            organelles of eukaryotic cells. In order to generate ATP, a process called <a className="font-extrabold text-nice-blue-600">cellular respiration</a> occurs in the cytoplasm 
+                            and the mitochondria. Cellular respiration requires oxygen and sugar to perform 
+                            and creates energy in the form of ATP as a product. Mitochondria are typically oval in shape and have a 
+                            size of about 0.5 to 10 micrometers.
                         </p>
                     </div>
                     <div className="mr-4 self-center shrink-0">
-                        <Image src="/images/dashspider.jpg" alt="" className="rounded-lg border-8 border-solid border-nice-yellow-500 object-contain max-h-96 max-w-96" width={500} height={500}/>
+                        <Image src="/images/mitochondria_diagram.jpg" alt="" className="rounded-lg border-8 border-solid border-nice-yellow-500 object-contain max-h-96 max-w-96" width={500} height={500}/>
                     </div>
                 </div>
                 <div className="flex flex-row">
                     <div className="ml-4 self-center shrink-0">
-                        <Image src="/images/en_passant.png" alt="" className="rounded-lg border-8 border-solid border-nice-yellow-500 object-contain" width={300} height={300}/>
+                        <Image src="/images/powerhouse.jpg" alt="" className="rounded-lg border-8 border-solid border-nice-yellow-500 object-contain" width={375} height={375}/>
                     </div>
                     <div className="flex-grow flex-auto bg-nice-yellow-400 rounded-lg mx-4 mt-2 mb-4">
                         <p className="text-black text-left text-2xl font-semibold mx-4 my-4 indent-6 leading-loose">
-                            In order to generate ATP, a process called <a className="font-extrabold text-nice-blue-600">cellular respiration</a> occurs in the cytoplasm 
-                            and the mitochondria. Cellular respiration requires oxygen and sugar to perform 
-                            and creates energy in the form of ATP as a product.
+                            Interestingly, mitochondria show evidence of being a separate organism that was engulfed by a larger cell.
+                            They have their own DNA, membranes, and ribosomes, which are similar to those of bacteria.
+                            This has led to the <a className="font-extrabold text-nice-pink-600">endosymbiotic theory</a>, 
+                            which suggests that mitochondria and chloroplasts were once free-living bacteria that were engulfed by a larger cell.
                         </p>
                     </div>
                 </div>

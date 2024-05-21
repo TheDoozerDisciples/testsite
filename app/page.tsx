@@ -17,11 +17,11 @@ export default function Home() {
 							As you may know, <a className="font-extrabold text-nice-purple-500">all life is made up of cells</a>. This project details the inner workings of a typical plant cell. 
 							We interviewed biologist <a className="font-black text-nice-pink-500">Dr. Nathan Pumplin</a>, CEO of Norfolk Healthy Produce, about 
 							the amazing and complex world of <a className=" font-extrabold text-nice-blue-700">plant biology</a>.
-							We also created a 3D model of a plant cell to help visualize what we learned.
+							We also created a 3D model of a plant cell to help visualize what we have learned.
 						</p>
 					</div>
 					<div className="mr-4 self-center shrink-0">
-						<Image src="/images/uc_davis_logo.png" alt="" className="rounded-lg border-8 border-solid border-nice-pink-300 object-contain" width={400} height={400}/>
+						<Image src="/images/norfolk_healthy_produce.png" alt="" className="rounded-lg border-8 border-solid border-nice-pink-300 object-contain" width={400} height={400}/>
 					</div>
 				</div>
 				<div className="flex flex-row">

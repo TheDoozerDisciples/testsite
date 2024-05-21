@@ -2,8 +2,8 @@ import Image from "next/image";
 import { futura } from "../fonts.ts"
 
 // Golgi Apparatus
-// Image #1 from [link goes here]
-// Image #2 from [link goes here]
+// Image #1 from https://www.britannica.com/science/Golgi-apparatus
+// Image #2 from https://www.britannica.com/science/Golgi-apparatus
 export default function Home() {
 	return (
 		<main className={`${futura.className} flex flex-col h-screen`}>
@@ -26,21 +26,21 @@ export default function Home() {
 						</p>
 					</div>
 					<div className="mr-4 self-center shrink-0">
-						<Image src="/images/dashspider.jpg" alt="" className="rounded-lg border-8 border-solid border-nice-blue-600 object-contain max-h-96 max-w-96" width={500} height={500}/>
+						<Image src="/images/golgi_body.png" alt="" className="rounded-lg border-8 border-solid border-nice-blue-600 object-contain max-h-96 max-w-96" width={350} height={350}/>
 					</div>
 				</div>
 				<div className="flex flex-row">
 					<div className="ml-4 self-center shrink-0">
-						<Image src="/images/en_passant.png" alt="" className="rounded-lg border-8 border-solid border-nice-blue-600 object-contain" width={300} height={300}/>
+						<Image src="/images/golgi_body_microscope.jpg" alt="" className="rounded-lg border-8 border-solid border-nice-blue-600 object-contain" width={400} height={400}/>
 					</div>
 					<div className="flex-grow flex-auto bg-nice-blue-500 rounded-lg mx-4 mt-2 mb-4">
 						<p className="text-black text-left text-2xl font-semibold mx-4 my-4 indent-6 leading-loose">
-						The Golgi apparatus also performs <a className="font-extrabold text-nice-pink-600">lipid metabolism</a>. 
-						Lipid metabolism is the process where the stomach and duodenum 
-						synthesize and deteriorate lipids to create and store energy. 
-						It also synthesizes glycolipids and sphingomyelin. Finally, 
-						the Golgi apparatus processes them and then sorts them to the 
-						correct <a className="font-extrabold text-nice-purple-600">intracellular compartment</a>, which is the space within the organism's cells.
+							The Golgi apparatus also performs <a className="font-extrabold text-nice-pink-600">lipid metabolism</a>. 
+							Lipid metabolism is the process where the stomach and duodenum 
+							synthesize and deteriorate lipids to create and store energy. 
+							It also synthesizes glycolipids and sphingomyelin. Finally, 
+							the Golgi apparatus processes them and then sorts them to the 
+							correct <a className="font-extrabold text-nice-purple-600">intracellular compartment</a>, which is the space within the organism's cells.
 						</p>
 					</div>
 				</div>

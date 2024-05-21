@@ -2,6 +2,7 @@ import Image from "next/image";
 import { futura } from "../fonts.ts"
 
 // The Cell Membrane: The Gatekeeper of the Cell
+// Image #1 from https://www.thoughtco.com/cell-membrane-373364
 export default function Home() {
 	return (
 		<main className={`${futura.className} flex flex-col h-screen`}>
@@ -12,7 +13,7 @@ export default function Home() {
 			<div className="grid grid-cols-1 grid-rows-2 gap-0 bg-gradient-to-b from-nice-blue-200 to-nice-blue-300 rounded-lg mt-0 w-screen-4 flex-grow mx-4">
 				<div className="flex flex-row">
 					<div className="flex-grow flex-auto bg-nice-blue-500 rounded-lg mx-4 mt-4 mb-2">
-						<p className="text-black text-left text-2xl font-semibold mx-4 my-4 indent-6 leading-loose">
+						<p className="text-black text-left text-3xl font-semibold mx-4 my-4 indent-6 leading-loose">
 							The <a className="font-extrabold text-nice-pink-600">cell membrane</a> is a thin membrane surrounding every living cell. It acts 
 							primarily as protection, as it is a <a className="font-extrabold text-nice-purple-600">selectively permeable</a> membrane 
 							that keeps out unwanted substances. It is primarily composed of lipids and proteins, 
@@ -21,7 +22,7 @@ export default function Home() {
 						</p>
 					</div>
 					<div className="mr-4 self-center shrink-0">
-						<Image src="/images/dashspider.jpg" alt="" className="rounded-lg border-8 border-solid border-nice-blue-600 object-contain max-h-96 max-w-96" width={500} height={500}/>
+						<Image src="/images/cell_membrane.png" alt="" className="rounded-lg border-8 border-solid border-nice-blue-600 object-contain max-h-96 max-w-96" width={500} height={500}/>
 					</div>
 				</div>
 				<div className="flex flex-row">
@@ -30,7 +31,11 @@ export default function Home() {
 					</div>
 					<div className="flex-grow flex-auto bg-nice-blue-500 rounded-lg mx-4 mt-2 mb-4">
 						<p className="text-black text-left text-2xl font-semibold mx-4 my-4 indent-6 leading-loose">
-							TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT NEED ENOUGH TEXT FOR THIS TO LINE WRAP
+							The cell membrane is composed of a <a className="font-extrabold text-nice-pink-600">phospholipid bilayer</a>, which is a 
+							double layer of phospholipids. The phospholid bilayer has hydrophilic heads and 
+							a hydrophilic tail. The structure of the membrane is such small molecules can pass through it, while larger
+							molecules, charged ions, etc. cannot. The proteins in the membrane help cells to communicate, maintain 
+							their shape, and transport substances in and out of the cell.
 						</p>
 					</div>
 				</div>

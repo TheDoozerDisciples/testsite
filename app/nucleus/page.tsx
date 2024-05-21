@@ -2,8 +2,8 @@ import Image from "next/image";
 import { futura } from "../fonts.ts"
 
 // The Nucleus
-// Image #1 from: [link goes here]
-// Image #2 from: [link goes here]
+// Image #1 from: https://biologydictionary.net/cell-nucleus/
+// Image #2 from: https://www.britannica.com/science/nucleus-biology#/media/1/422009/299945
 export default function Home() {
     return (
         <main className={`${futura.className} flex flex-col h-screen`}>
@@ -24,12 +24,12 @@ export default function Home() {
                         </p>
                     </div>
                     <div className="mr-4 self-center shrink-0">
-                        <Image src="/images/dashspider.jpg" alt="" className="rounded-lg border-8 border-solid border-nice-blue-600 object-contain max-h-96 max-w-96" width={500} height={500}/>
+                        <Image src="/images/nucleus_microscope.png" alt="" className="rounded-lg border-8 border-solid border-nice-blue-600 object-contain mt-2" width={250} height={250}/>
                     </div>
                 </div>
                 <div className="flex flex-row">
                     <div className="ml-4 self-center shrink-0">
-                        <Image src="/images/en_passant.png" alt="" className="rounded-lg border-8 border-solid border-nice-blue-600 object-contain" width={300} height={300}/>
+                        <Image src="/images/nucleus.jpg" alt="" className="rounded-lg border-8 border-solid border-nice-blue-600 object-contain" width={400} height={400}/>
                     </div>
                     <div className="flex-grow flex-auto bg-nice-blue-400 rounded-lg mx-4 mt-2 mb-4">
                         <p className="text-black text-left text-2xl font-semibold mx-4 my-4 indent-6 leading-loose">

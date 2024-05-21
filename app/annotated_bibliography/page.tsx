@@ -189,7 +189,7 @@ export default function Home() {
 							</div>
 							<div className="my-1">{/*Source #20*/}
 								<p className="text-sm mb-1">
-									[MLA Citation]
+								Martin, William F et al. “Endosymbiotic theories for eukaryote origin.” <a className="italic">Philosophical transactions of the Royal Society of London. Series B, Biological sciences</a> vol. 370,1678 (2015): 20140330. doi:10.1098/rstb.2014.0330
 								</p>
 								<p className="indent-6 text-sm">
 									- [Why we used this source]</p><p className="indent-6 text-sm">

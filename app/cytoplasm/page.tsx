@@ -2,7 +2,7 @@ import Image from "next/image";
 import { futura } from "../fonts.ts"
 
 // Cytoplasm
-// Image #1 from: [link goes here]
+// Image #1 from: https://sciencing.com/cytoplasm-definition-structure-function-with-diagram-13717294.html
 // Image #2 from: [link goes here]
 export default function Home() {
     return (
@@ -19,11 +19,13 @@ export default function Home() {
                             nuclear membrane, but inside the cell membrane. It contains all of the cell’s 
                             organelles, such as the mitochondria, the endoplasmic reticulum, the golgi 
                             apparatus, and more. The <a className="font-extrabold text-nice-pink-600">cytoskeleton</a> gives the cell its shape and structure. 
-                            Finally, the cytoplasm is made of a fluid substance called <a className="font-extrabold text-nice-purple-600">cytosol</a>.
+                            Finally, the cytoplasm is made of a fluid substance called <a className="font-extrabold text-nice-purple-600">cytosol</a>. 
+                            Many important chemical reactions within the cell take place in the cytoplasm. 
+                            For example, part of <a className="font-extrabold text-nice-blue-600">cellular respiration</a> occurs in the cytoplasm.
                         </p>
                     </div>
                     <div className="mr-4 self-center shrink-0">
-                        <Image src="/images/dashspider.jpg" alt="" className="rounded-lg border-8 border-solid border-nice-yellow-500 object-contain max-h-96 max-w-96" width={500} height={500}/>
+                        <Image src="/images/cytoplasm.jpg" alt="" className="rounded-lg border-8 border-solid border-nice-yellow-500 object-contain max-h-96 max-w-96" width={500} height={500}/>
                     </div>
                 </div>
                 <div className="flex flex-row">
@@ -32,8 +34,7 @@ export default function Home() {
                     </div>
                     <div className="flex-grow flex-auto bg-nice-yellow-400 rounded-lg mx-4 mt-2 mb-4">
                         <p className="text-black text-left text-2xl font-semibold mx-4 my-4 indent-6 leading-loose">
-                        Many important chemical reactions within the cell take place in the cytoplasm. 
-                        For example, part of <a className="font-extrabold text-nice-blue-600">cellular respiration</a> occurs in the cytoplasm.
+                            stuff
                         </p>
                     </div>
                 </div>

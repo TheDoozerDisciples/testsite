@@ -2,8 +2,8 @@ import Image from "next/image";
 import { futura } from "../fonts.ts"
 
 // Vacuoles
-// Image #1 from: [link goes here]
-// Image #2 from: [link goes here]
+// Image #1 from: https://www.geeksforgeeks.org/vacuoles/
+// Image #2 from: https://www.ahmadcoaching.com/2020/11/structure-and-function-of-vacuole.html
 export default function Home() {
 	return (
 		<main className={`${futura.className} flex flex-col h-screen`}>
@@ -25,16 +25,18 @@ export default function Home() {
 						</p>
 					</div>
 					<div className="mr-4 self-center shrink-0">
-						<Image src="/images/dashspider.jpg" alt="" className="rounded-lg border-8 border-solid border-nice-purple-600 object-contain max-h-96 max-w-96" width={500} height={500}/>
+						<Image src="/images/vacuole_2.png" alt="" className="rounded-lg border-8 border-solid border-nice-purple-600 object-contain max-h-96 max-w-96" width={500} height={500}/>
 					</div>
 				</div>
 				<div className="flex flex-row">
 					<div className="ml-4 self-center shrink-0">
-						<Image src="/images/en_passant.png" alt="" className="rounded-lg border-8 border-solid border-nice-purple-600 object-contain" width={300} height={300}/>
+						<Image src="/images/vacuole.jpg" alt="" className="rounded-lg border-8 border-solid border-nice-purple-600 object-contain" width={400} height={400}/>
 					</div>
 					<div className="flex-grow flex-auto bg-nice-purple-400 rounded-lg mx-4 mt-2 mb-4">
 						<p className="text-black text-left text-2xl font-semibold mx-4 my-4 indent-6 leading-loose">
-							TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT NEED ENOUGH TEXT FOR THIS TO LINE WRAP
+							Vacuoles in plant cells are surrounded with a membrane called the <a className="font-extrabold text-nice-yellow-400">tonoplast</a>, otherwise 
+                            known as the vacuolar membrane. Inside a vacuole is a fluid called the <a className="font-extrabold text-nice-pink-600">cell sap</a>, which 
+                            consists of water, amino acids, sugars, and salts, and contains variable amounts of food and waste materials.
 						</p>
 					</div>
 				</div>
