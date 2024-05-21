@@ -7,43 +7,43 @@ export function dropdown(){
         <div className=" ml-4 overflow-visible absolute top-16 left-2 bg-white rounded-lg shadow-lg p-4 text-nice-blue-500 text-xl leading-relaxed">
             <ul>
                 <li>
-                    <Link href="/">Home</Link>
+                    <Link href="/" className="hover:text-nice-blue-600 hover:font-semibold">Home</Link>
                 </li>
                 <li>
-                    <Link href="/page_template">Page Template</Link>
+                    <Link href="/acknowledgements" className="hover:text-nice-blue-600 hover:font-semibold">Acknowledgements</Link>
                 </li>
                 <li>
-                    <Link href="/acknowledgements">Acknowledgements</Link>
+                    <Link href="/annotated_bibliography" className="hover:text-nice-blue-600 hover:font-semibold">Annotated Bibliography</Link>
                 </li>
                 <li>
-                    <Link href="/annotated_bibliography">Annotated Bibliography</Link>
+                    <Link href="/cell_membrane" className="hover:text-nice-blue-600 hover:font-semibold">Cell Membrane</Link>
                 </li>
                 <li>
-                    <Link href="/cell_membrane">Cell Membrane</Link>
+                    <Link href="/cell_wall" className="hover:text-nice-blue-600 hover:font-semibold">Cell Wall</Link>
                 </li>
                 <li>
-                    <Link href="/cell_wall">Cell Wall</Link>
+                    <Link href="/chloroplasts" className="hover:text-nice-blue-600 hover:font-semibold">Chloroplasts</Link>
                 </li>
                 <li>
-                    <Link href="/chloroplasts">Chloroplasts</Link>
+                    <Link href="/cytoplasm" className="hover:text-nice-blue-600 hover:font-semibold">Cytoplasm</Link>
                 </li>
                 <li>
-                    <Link href="/cytoplasm">Cytoplasm</Link>
+                    <Link href="/endoplasmic_reticulum" className="hover:text-nice-blue-600 hover:font-semibold">Endoplasmic Reticulum</Link>
                 </li>
                 <li>
-                    <Link href="/endoplasmic_reticulum">Endoplasmic Reticulum</Link>
+                    <Link href="/golgi_apparatus" className="hover:text-nice-blue-600 hover:font-semibold">Golgi Apparatus</Link>
                 </li>
                 <li>
-                    <Link href="/golgi_apparatus">Golgi Apparatus</Link>
+                    <Link href="/interview_takeaways" className="hover:text-nice-blue-600 hover:font-semibold">Interview Takeaways</Link>
                 </li>
                 <li>
-                    <Link href="/mitochondria">Mitochondria</Link>
+                    <Link href="/mitochondria"className="hover:text-nice-blue-600 hover:font-semibold">Mitochondria</Link>
                 </li>
                 <li>
-                    <Link href="/nucleus">Nucleus</Link>
+                    <Link href="/nucleus" className="hover:text-nice-blue-600 hover:font-semibold">Nucleus</Link>
                 </li>
                 <li>
-                    <Link href="/vacuoles">Vacuoles</Link>
+                    <Link href="/vacuoles" className="hover:text-nice-blue-600 hover:font-semibold">Vacuoles</Link>
                 </li>
             </ul>
         </div>
