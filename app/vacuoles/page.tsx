@@ -33,7 +33,7 @@ export default function Home() {
 			<div className="flex flex-col bg-gradient-to-b from-nice-blue-300 to-nice-blue-400 rounded-lg mt-0 w-screen-4 flex-grow mx-4">
 				<div className="flex flex-row">
 					<div className="flex-grow flex-auto bg-nice-purple-400 rounded-lg mx-4 mt-4 mb-2">
-						<p className="text-black text-left text-2xl font-semibold mx-4 my-4 indent-6 leading-loose">
+						<p className="text-black text-left text-[26px] font-semibold mx-4 my-4 indent-6 leading-loose">
                             A <a className="font-extrabold text-nice-pink-600">vacuole</a> is a membrane-bound organelle that is in both plant and animal cells. 
                             The vacuoles in the animal cells are usually smaller and they isolate waste products. 
                             The vacuoles in the plant cells maintain, balance, store, and transport water. 
@@ -52,12 +52,12 @@ export default function Home() {
 						<Image src="/images/vacuole.jpg" alt="" className="rounded-lg border-8 border-solid border-nice-purple-600 object-contain" width={400} height={400}/>
 					</div>
 					<div className="flex-grow flex-auto bg-nice-purple-400 rounded-lg mx-4 mt-2 mb-4">
-						<p className="text-black text-left text-2xl font-semibold mx-4 my-4 indent-6 leading-loose">
+						<p className="text-black text-left text-[26px] font-semibold mx-4 my-4 indent-6 leading-loose">
 							Vacuoles in plant cells are surrounded with a membrane called the <a className="font-extrabold text-nice-yellow-400">tonoplast</a>, otherwise 
                             known as the vacuolar membrane. Inside a vacuole is a fluid called the <a className="font-extrabold text-nice-pink-600">cell sap</a>, which 
                             consists of water, amino acids, sugars, and salts, and contains variable amounts of food and waste materials.
 						</p>
-                        <p className="text-black text-left text-2xl font-semibold mx-4 my-4 indent-6 leading-loose">
+                        <p className="text-black text-left text-[26px] font-semibold mx-4 my-4 indent-6 leading-loose">
 							Unlike what most common models show, the vacuoles take up almost all of the space in a plant cell. 
                             As Dr. Pumplin said, "...most plant cells are almost entirely vacuole. So, when you look at those 
                             cells in a microscope, what you see is mostly just a clear water balloon and all the other stuff, the 
