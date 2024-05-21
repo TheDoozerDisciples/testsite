@@ -9,8 +9,8 @@ export default function Home() {
 				<h1 className="text-black text-center text-6xl font-black p-2 underline decoration-3 decoration-nice-purple-700 decoration-double">Interview Takeaways</h1>
 				<h2 className="text-black text-center text-4xl font-bold mt-2">W/Nathan Pumplin</h2>
 			</div>
-			<div className="grid grid-cols-1 grid-rows-2 gap-0 bg-gradient-to-b from-nice-yellow-200 to-nice-yellow-300 rounded-lg mt-0 w-screen-4 flex-grow mx-4">
-				<div className="flex flex-row">
+			<div className="flex flex-col bg-gradient-to-b from-nice-yellow-200 to-nice-yellow-300 rounded-lg mt-0 w-screen-4 flex-grow mx-4">
+				<div className="flex flex-row flex-grow">
 					<div className="flex-grow flex-auto bg-nice-green-400 rounded-lg mx-4 mt-4 mb-2">
 						<p className="text-black text-left text-xl font-semibold mx-4 my-4 leading-loose">
                             - Dr. Pumplin has worked in the field for around 20 years. He initially started out with research and devlopment
@@ -35,7 +35,9 @@ export default function Home() {
                             - One of the most interesting things he said was about the way cells distribute and produce proteins and sugars. 
                                 He said, "what’s amazing is it looked a heck of a lot like a grocery store chain, like how they distribute different products from suppliers, warehouses, on the shelf, where we buy it every day" <br />
                             - There is probably the most amount of research done on chloroplasts out of all of the plant cell organelles. <br />
-                            - stuff
+                            - Cells have polarity, which means that they have a top and a bottom, left and right, etc. 
+								Dr. Pumplin did a lot of his PhD research on this topic. The complex interactions between proteins
+								is what causes this, but a lot about this phenomenon is still unknown.
 						</p>
 					</div>
 				</div>

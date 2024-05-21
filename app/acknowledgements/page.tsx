@@ -27,7 +27,7 @@ export default function Home() {
 						<Image src="/images/devansh.png" alt="" className="rounded-lg border-8 border-solid border-nice-green-600 object-contain" width={300} height={300}/>
 					</div>
 					<div className=" mx-4 self-center">
-						<Image src="/images/en_passant.png" alt="" className="rounded-lg border-8 border-solid border-nice-green-600 object-contain" width={300} height={300}/>
+						<Image src="/images/pumplin.png" alt="" className="rounded-lg border-8 border-solid border-nice-green-600 object-contain" width={300} height={300}/>
 					</div>
 					<div className=" mx-4 self-center">
 						<Image src="/images/oliver.png" alt="" className="rounded-lg border-8 border-solid border-nice-green-600 object-contain" width={300} height={300}/>
