@@ -53,7 +53,7 @@ export default function Home() {
                         <Image src="/images/powerhouse.jpg" alt="" className="rounded-lg border-8 border-solid border-nice-yellow-500 object-contain" width={375} height={375}/>
                     </div>
                     <div className="flex-grow flex-auto bg-nice-yellow-400 rounded-lg mx-4 mt-2 mb-4">
-                        <p className="text-black text-left text-2xl font-semibold mx-4 my-4 indent-6 leading-loose">
+                        <p className="text-black text-left text-3xl font-semibold mx-4 my-4 indent-6 leading-loose">
                             Interestingly, mitochondria show evidence of being a separate organism that was engulfed by a larger cell.
                             They have their own DNA, membranes, and ribosomes, which are similar to those of bacteria.
                             This has led to the <a className="font-extrabold text-nice-pink-600">endosymbiotic theory</a>, 

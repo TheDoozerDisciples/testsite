@@ -53,7 +53,10 @@ export default function Home() {
                     </div>
                     <div className="flex-grow flex-auto bg-nice-yellow-400 rounded-lg mx-4 mt-2 mb-4">
                         <p className="text-black text-left text-2xl font-semibold mx-4 my-4 indent-6 leading-loose">
-                            stuff
+                            The cytoskeleton inside the cytoplasm is made of a complex network of protein filaments. 
+                            The three main components that make up the cytoskeleton are microfilaments, 
+                            intermediate filaments, and microtubules. In eukaryotes, it extends out from the nucleus to the cell membrane. 
+                            The cytoskeleton is also capable contracting in order to allow cells to migrate, 
                         </p>
                     </div>
                 </div>

@@ -6,7 +6,6 @@ import { useState } from "react";
 import { dropdown } from "./navigation_dropdown.tsx";
 
 // default page, intro
-// replace UC Davis logo with something else
 export default function Home() {
 	const [isDropdownOpen, setIsDropdownOpen] = useState(false);
 
@@ -45,7 +44,7 @@ export default function Home() {
 				</div>
 				<div className="flex flex-row">
 					<div className="ml-4 self-center shrink-0">
-						<Image src="/images/plant_cell.jpg" alt="" className="rounded-lg border-8 border-solid border-nice-pink-300 object-contain" width={300} height={300}/>
+						<Image src="/images/plant_cell.jpg" alt="" className="rounded-lg border-8 border-solid border-nice-pink-300 object-contain" width={400} height={400}/>
 					</div>
 					<div className="flex-grow flex-auto bg-nice-purple-400 rounded-lg mx-4 mt-2 mb-4">
 						<p className="text-black text-left text-3xl font-semibold mx-4 mt-4 indent-6 leading-loose">
