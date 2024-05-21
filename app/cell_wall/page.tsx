@@ -19,7 +19,7 @@ export default function Home() {
 		<main className={`${futura.className} flex flex-col h-screen`}>
 			<div className="rounded-lg bg-gradient-to-r from-nice-green-700 to-nice-green-600 p-7 mx-4 mb-2 mt-4">
             	<button
-					className="absolute top-2 left-2 rounded-lg bg-nice-purple-400 text-black text-xl mx-4 my-4 object-top-left border-solid border-nice-yellow-300 border-2 p-2"
+					className="absolute top-2 left-2 rounded-lg bg-nice-purple-400 hover:bg-nice-purple-500 text-black text-xl mx-4 my-4 object-top-left border-solid border-nice-yellow-300 border-2 p-2"
 					onClick={toggleDropdown}
 				>
 					Navigation
