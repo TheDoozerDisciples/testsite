@@ -29,7 +29,7 @@ export default function Home() {
 				<h1 className="text-black text-center text-6xl font-black p-2 underline decoration-3 decoration-nice-purple-600 decoration-double">
 					INSERT TITLE HERE
 				</h1>
-				<h2 className="text-black text-center text-3xl font-bold mt-2">
+				<h2 className="text-black text-center text-3xl font-bold mt-2 italic">
 					SUBCAPTION
 				</h2>
 			</div>
