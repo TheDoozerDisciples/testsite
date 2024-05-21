@@ -3,6 +3,7 @@ import { futura } from "../fonts.ts"
 
 // The Cell Membrane: The Gatekeeper of the Cell
 // Image #1 from https://www.thoughtco.com/cell-membrane-373364
+// Image #2 from https://www.nature.com/scitable/topicpage/cell-membranes-14052567/
 export default function Home() {
 	return (
 		<main className={`${futura.className} flex flex-col h-screen`}>
@@ -27,7 +28,7 @@ export default function Home() {
 				</div>
 				<div className="flex flex-row">
 					<div className="ml-4 self-center shrink-0">
-						<Image src="/images/en_passant.png" alt="" className="rounded-lg border-8 border-solid border-nice-blue-600 object-contain" width={300} height={300}/>
+						<Image src="/images/selective_transport.jpg" alt="" className="rounded-lg border-8 border-solid border-nice-blue-600 object-contain" width={350} height={350}/>
 					</div>
 					<div className="flex-grow flex-auto bg-nice-blue-500 rounded-lg mx-4 mt-2 mb-4">
 						<p className="text-black text-left text-2xl font-semibold mx-4 my-4 indent-6 leading-loose">
@@ -35,7 +36,8 @@ export default function Home() {
 							double layer of phospholipids. The phospholid bilayer has hydrophilic heads and 
 							a hydrophilic tail. The structure of the membrane is such small molecules can pass through it, while larger
 							molecules, charged ions, etc. cannot. The proteins in the membrane help cells to communicate, maintain 
-							their shape, and transport substances in and out of the cell.
+							their shape, and transport substances in and out of the cell. Some proteins are specialized to transport
+							specific types of molecules in and out of the cell, such as glucose, amino acids, or ions.
 						</p>
 					</div>
 				</div>
