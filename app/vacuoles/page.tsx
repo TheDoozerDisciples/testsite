@@ -25,7 +25,7 @@ export default function Home() {
 						</p>
 					</div>
 					<div className="mr-4 self-center shrink-0">
-						<Image src="/images/vacuole_2.png" alt="" className="rounded-lg border-8 border-solid border-nice-purple-600 object-contain max-h-96 max-w-96" width={500} height={500}/>
+						<Image src="/images/vacuole_2.png" alt="" className="rounded-lg border-8 border-solid border-nice-purple-600 object-contain max-h-96 max-w-96 mt-2" width={500} height={500}/>
 					</div>
 				</div>
 				<div className="flex flex-row flex-grow">

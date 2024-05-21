@@ -11,8 +11,8 @@ export default function Home() {
 				<h1 className="text-black text-center text-6xl font-black p-2 underline decoration-3 decoration-nice-purple-600 decoration-double">The Cell Wall</h1>
 				<h2 className="text-black text-center text-3xl font-bold mt-2 italic">Armor of the Cell</h2>
 			</div>
-			<div className="grid grid-cols-1 grid-rows-2 gap-0 bg-gradient-to-b from-nice-yellow-300 to-nice-yellow-400 rounded-lg mt-0 w-screen-4 flex-grow mx-4">
-				<div className="flex flex-row">
+			<div className="flex flex-col gap-0 bg-gradient-to-b from-nice-yellow-300 to-nice-yellow-400 rounded-lg mt-0 w-screen-4 flex-grow mx-4">
+				<div className="flex flex-row flex-grow">
 					<div className="flex-grow flex-auto bg-nice-green-500 rounded-lg mx-4 mt-4 mb-2">
 						<p className="text-black text-left text-2xl font-semibold mx-4 mt-4 indent-6 leading-loose">
                             The <a className="font-extrabold text-nice-blue-700">cell wall</a> is a form of <a className="font-extrabold text-nice-pink-600">extracellular matrix</a> that serves as structural support for the cell. 
@@ -39,7 +39,9 @@ export default function Home() {
 						<Image src="/images/plasmodesma.jpg" alt="" className="rounded-lg border-8 border-solid border-nice-green-600 object-contain" width={500} height={500}/>
 					</div>
 					<div className="flex-grow flex-auto bg-nice-green-500 rounded-lg mx-4 mt-2 mb-4">
-						<p className="text-black text-left text-3xl font-semibold mx-4 my-4 indent-6 leading-loose">
+						<p className="text-black text-left text-2xl font-semibold mx-4 my-4 indent-6 leading-loose">
+							The secondary wall is responsible for most of a plant’s mechanical support and is 
+                            much more rigid than the primary wall. <br />
 							There is also a channel connecting the cell walls of adjacent plant cells, called the <a className="font-extrabold text-nice-pink-600">plasmodesma</a>. 
 							It allows for direct molecular communication between the adjacent cells. 
 							Plasmodesmata are lined with <a className="font-extrabold text-nice-blue-700">cell membrane</a>, 

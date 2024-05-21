@@ -15,7 +15,9 @@ export default function Home() {
 				<div className="flex flex-row">
 					<div className="flex-grow flex-auto bg-nice-blue-500 rounded-lg mx-4 mt-4 mb-2">
 						<p className="text-black text-left text-3xl font-semibold mx-4 my-4 indent-6 leading-loose">
-							The <a className="font-extrabold text-nice-pink-600">cell membrane</a> is a thin membrane surrounding every living cell. It acts 
+							The <a className="font-extrabold text-nice-pink-600">cell membrane</a> was first 
+							discovered in the late 1600's by Robert Hooke, along with his discovery of the cell. 
+							It is a thin membrane surrounding every living cell. It acts 
 							primarily as protection, as it is a <a className="font-extrabold text-nice-purple-600">selectively permeable</a> membrane 
 							that keeps out unwanted substances. It is primarily composed of lipids and proteins, 
 							both of which are of two types. Membrane lipids are either phospholipids or sterols, 

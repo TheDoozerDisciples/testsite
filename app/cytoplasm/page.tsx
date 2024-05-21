@@ -14,7 +14,7 @@ export default function Home() {
             <div className="grid grid-cols-1 grid-rows-2 gap-0 bg-gradient-to-b from-nice-blue-100 to-nice-blue-200 rounded-lg mt-0 w-screen-4 flex-grow mx-4">
                 <div className="flex flex-row">
                     <div className="flex-grow flex-auto bg-nice-yellow-400 rounded-lg mx-4 mt-4 mb-2">
-                        <p className="text-black text-left text-2xl font-semibold mx-4 my-4 indent-6 leading-loose">
+                        <p className="text-black text-left text-3xl font-semibold mx-4 my-4 indent-6 leading-loose">
                             The <a className="font-extrabold text-nice-blue-600">cytoplasm</a> is the semifluid substance of the cell that is outside the 
                             nuclear membrane, but inside the cell membrane. It contains all of the cell’s 
                             organelles, such as the mitochondria, the endoplasmic reticulum, the golgi 
@@ -33,7 +33,7 @@ export default function Home() {
                         <Image src="/images/cytoskeleton_parts.png" alt="" className="rounded-lg border-8 border-solid border-nice-yellow-500 object-contain" width={400} height={400}/>
                     </div>
                     <div className="flex-grow flex-auto bg-nice-yellow-400 rounded-lg mx-4 mt-2 mb-4">
-                        <p className="text-black text-left text-2xl font-semibold mx-4 my-4 indent-6 leading-loose">
+                        <p className="text-black text-left text-3xl font-semibold mx-4 my-4 indent-6 leading-loose">
                             Initially discovered in 1903 by Nikolai K. Koltsov, the cytoskeleton is made of a complex network of protein filaments. 
                             The three main components that make up the cytoskeleton are microfilaments, 
                             intermediate filaments, and microtubules. For some time after its discovery, it was thought of 

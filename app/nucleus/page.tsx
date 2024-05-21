@@ -41,7 +41,8 @@ export default function Home() {
                             the formation of <a className="font-extrabold text-nice-purple-600">ribosomes</a>. 
                             The nucleolus contains the genes that encode rRNA. 
                             To form ribosomes, molecules of rRNA combine with ribosomal proteins inside of the nucleolus. 
-                            The subunits formed by this process are returned to the cytoplasm for final assembly.
+                            The subunits formed by this process are returned to the cytoplasm for final assembly. Depending on 
+                            the organism, the nucleus may contain one or several nucleoli.
                         </p>
                     </div>
                 </div>
