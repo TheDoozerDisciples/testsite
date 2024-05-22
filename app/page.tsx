@@ -35,7 +35,7 @@ export default function Home() {
 							To get started, try placing a part of the cell on the base. Please be patient, it can take a little bit of time to load. 
 							Do not touch any of the components other than the model, and place the model parts back where they were after you are done reading.
 						</p>
-						<p className="text-black text-left text-[22px] font-semibold mx-4 mt-2 mb-4 indent-6 leading-relaxed">
+						<p className="text-black text-left text-[22px] font-semibold mx-4 mb-4 indent-6 leading-relaxed">
 							DISCLAIMER: This model is <a className="font-extrabold text-red-600">NOT</a> to scale. Cell parts may be shaped differently in this model than in reality. 
 							For example, in this model the cell wall is below all the other cell parts and is filled in, but 
 							in reality the cell wall surrounds all the other cell parts and is is not filled in. A similar misrepresentation can 
