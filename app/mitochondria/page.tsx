@@ -33,7 +33,7 @@ export default function Home() {
             <div className="grid grid-cols-1 grid-rows-2 gap-0 bg-gradient-to-b from-nice-pink-100 to-nice-pink-200 rounded-lg mt-0 w-screen-4 flex-grow mx-4">
                 <div className="flex flex-row">
                     <div className="flex-grow flex-auto bg-nice-yellow-400 rounded-lg mx-4 mt-4 mb-2">
-                        <p className="text-black text-left text-[28px] font-semibold mx-4 my-4 indent-6 leading-loose">
+                        <p className="text-black text-left text-[27.5px] font-semibold mx-4 my-4 indent-6 leading-loose">
                             <a className="font-extrabold text-nice-blue-600">Mitochondria</a>, commonly called the <a className="font-extrabold text-nice-purple-600">‘Powerhouse of the Cell’</a>, 
                             are organelles found in almost all eukaryotic cells. A mitochondrion’s main purpose is to generate energy 
                             for the cell in the form of <a className="font-extrabold text-nice-pink-600">adenosine triphosphate (ATP)</a>. 
